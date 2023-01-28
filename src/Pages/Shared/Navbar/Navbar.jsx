@@ -2,7 +2,7 @@ import React from "react";
 import { FaBars, FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <div>
+    <div className="fixed top-0 w-full z-50">
       <div className="navbar backdrop-blur-xl bg-[#96e9f233] rounded-lg">
         <div className="navbar-start flex justify-between lg:justify-start">
           <div className="dropdown mr-2">
