@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Navbar from "./Pages/Shared/Navbar/Navbar";
 
 function App() {
   return (
     <div>
-      <h2>Hello from Bright Future</h2>
+      <Navbar></Navbar>
     </div>
   );
 }
