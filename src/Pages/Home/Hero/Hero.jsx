@@ -1,11 +1,11 @@
 import React from "react";
 import BG from "./background.png";
+import Particle from "./Particles";
 const Hero = () => {
   return (
-    <section
-      className="h-screen"
-      style={{ backgroundImage: `url(${BG})`, backgroundSize: "cover" }}
-    ></section>
+    <section className="max-h-[100px]">
+      <Particle></Particle>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 import { FaBars, FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <div className="fixed top-0 w-full z-50">
+    <div className="fixed top-0 w-full z-50 h-[56px]">
       <div className="navbar backdrop-blur-xl bg-[#96e9f233] rounded-lg">
         <div className="navbar-start flex justify-between lg:justify-start">
           <div className="dropdown mr-2">
@@ -64,7 +64,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-10 font-semibold ">
-            <li className="hover:bg-[#FF3F4A] hover:text-white hover:rounded-full">
+            <li className="hover:bg-[#ADD8E6] hover:text-white hover:rounded-full">
               <a href="/">Home</a>
             </li>
             <li>
@@ -81,7 +81,7 @@ const Navbar = () => {
         <div className="navbar-end hidden lg:block">
           <div className="flex justify-end items-center gap-5 ">
             <a
-              className="hover:bg-[#FF3F4A] p-2 rounded-full hover:text-white"
+              className="hover:bg-[#ADD8E6] p-2 rounded-full hover:text-black"
               href="https://www.linkedin.com/company/bright-future-bd/"
               target="_blank"
               rel="noreferrer"
@@ -89,7 +89,7 @@ const Navbar = () => {
               <FaLinkedinIn></FaLinkedinIn>
             </a>
             <a
-              className="hover:bg-[#FF3F4A] p-2 rounded-full hover:text-white"
+              className="hover:bg-[#ADD8E6] p-2 rounded-full hover:text-black"
               href="https://github.com/Bright-Futute"
               target="_blank"
               rel="noreferrer"
@@ -97,7 +97,7 @@ const Navbar = () => {
               <FaGithub></FaGithub>
             </a>
             <a
-              className="hover:bg-[#FF3F4A] p-2 rounded-full hover:text-white"
+              className="hover:bg-[#ADD8E6] p-2 rounded-full hover:text-black"
               href="https://www.facebook.com/brightfuture.soft"
               target="_blank"
               rel="noreferrer"
