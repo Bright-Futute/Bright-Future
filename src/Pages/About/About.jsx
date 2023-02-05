@@ -3,13 +3,14 @@ import Image from "./HeroSectionOfBrightFuture.jpg";
 const About = () => {
   return (
     <section className="py-10 pb-10">
-      <h2 className="text-center text-[52px] font-mono font-bold py-20">
-        About Bright-Future
+      <h2 className="text-center text-[40px] lg:text-[48px] font-mono font-bold py-20">
+        About{" "}
+        <span className="text-[#3B80B8] font-extrabold">Bright-Future</span>
       </h2>
 
-      <div className="flex px-10 gap-x-5">
-        <div className="w-2/4 ">
-          <h1 className="text-2xl font-mono font-bold">
+      <div className="flex flex-col lg:flex-row px-10 gap-y-10 lg:gap-x-5">
+        <div className=" lg:w-2/4 py-20">
+          <h1 className="text-2xl font-mono font-bold py-5">
             Bright Future For Your Bright Solution
           </h1>
           <p>
@@ -22,7 +23,7 @@ const About = () => {
             tempora eligendi voluptates accusamus.
           </p>
         </div>
-        <img className="w-2/4 rounded-lg" src={Image} alt="" />
+        <img className="lg:w-2/4 rounded-lg" src={Image} alt="" />
       </div>
     </section>
   );

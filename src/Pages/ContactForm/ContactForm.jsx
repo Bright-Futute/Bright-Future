@@ -14,7 +14,7 @@ const ContactForm = () => {
       <Typography
         gutterBottom
         variant="h5"
-        className="text-center font-bold"
+        className="text-center"
         style={{ fontWeight: "700", fontFamily: "monospace", fontSize: "52px" }}
       >
         Want to talk about your project?

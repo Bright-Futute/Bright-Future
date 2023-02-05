@@ -12,7 +12,7 @@ const Navbar = () => {
             <div>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow w-52 bg-teal-300 font-bold rounded"
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow w-52 bg-[#3B80B8] font-bold text-white rounded"
               >
                 <li>
                   <a href="/">Home</a>

@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="mt-[70px] container -z-50">
       <div className="block lg:flex  items-cen p-8 mx-auto">
         <aside className="text-black lg:w-[55%] mx-auto py-20">
-          <h1 className="font-mono text-4xl font-[800] w-3/4 my-10 text-center lg:text-start">
+          <h1 className="font-mono text-[30px] lg:text-4xl font-[800] lg:w-3/4 lg:my-10 text-center lg:text-start">
             We Are Professional Design & Development Service Provider.
           </h1>
           <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">

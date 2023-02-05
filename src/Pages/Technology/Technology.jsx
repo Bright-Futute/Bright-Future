@@ -35,7 +35,7 @@ const Technology = () => {
   return (
     <div className="my-20 container px-7">
       <div className="text-center">
-        <h1 className="text-[52px] font-bold font-mono ">
+        <h1 className="text-[48px] font-bold font-mono ">
           Our Technology and Tools
         </h1>
         <p className="my-2 text-xl font-mono">
