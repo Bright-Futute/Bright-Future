@@ -35,14 +35,18 @@ const Services = () => {
 
         return (
           <div className="p-2 shadow-xl flex text-center">
-            <img className="h-[200px] w-[220px] mx-auto" src={img} alt="" />
-            <aside className="px-3 py-1">
+            <img
+              className="h-[200px] w-[220px] rounded-full mx-auto"
+              src={img}
+              alt=""
+            />
+            <div className="px-3 py-1">
               <h1 className="text-2xl font-bold font-serif">{name}</h1>
               <p>{details}</p>
               <button className="my-3 bg-blue-500 px-3 py-3 text-white rounded text-x font-bold">
                 Go Projects
               </button>
-            </aside>
+            </div>
           </div>
         );
       })}

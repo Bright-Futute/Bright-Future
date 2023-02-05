@@ -5,14 +5,14 @@ const Navbar = () => {
     <div className="fixed top-0 w-full z-50 h-[56px]">
       <div className="navbar backdrop-blur-xl bg-[#96e9f233] rounded-lg">
         <div className="navbar-start flex justify-between lg:justify-start">
-          <div className="dropdown mr-2">
+          <div className="dropdown mr-2 ">
             <label tabIndex={0} className="lg:hidden">
               <FaBars></FaBars>
             </label>
             <div>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow w-52"
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow w-52 bg-teal-300 font-bold rounded"
               >
                 <li>
                   <a href="/">Home</a>
