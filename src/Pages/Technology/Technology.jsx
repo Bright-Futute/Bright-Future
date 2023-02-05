@@ -32,13 +32,17 @@ const Technology = () => {
     },
   ];
   return (
-    <div className="my-7 container px-7">
-      <h1 className="text-[52px] font-bold font-serif"> Our Technology </h1>
-      <p className="mt-3 text-xl font-mono">
-        We Use modern and update tech for our clients
-        <br />
-        Those are most popular and demandable to user and customer ,{" "}
-      </p>
+    <div className="my-20 container px-7">
+      <div className="text-center">
+        <h1 className="text-[52px] font-bold font-mono ">
+          Our Technology and Tools
+        </h1>
+        <p className="mt-3 text-xl font-mono">
+          We Use modern and update tech for our clients
+          <br />
+          Those are most popular and demandable to user and customer ,{" "}
+        </p>
+      </div>
       <section className="mt-3 grid grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
         {technologies.map((technology) => {
           const { name, img } = technology;

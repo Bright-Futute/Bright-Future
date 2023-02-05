@@ -22,7 +22,11 @@ const ContactForm = () => {
             style={{ maxWidth: 500, margin: "0 auto", padding: "20px 5px" }}
           >
             <CardContent>
-              <Typography gutterBottom variant="h5" className="text-center">
+              <Typography
+                gutterBottom
+                variant="h5"
+                className="text-center font-bold"
+              >
                 Contact Us
               </Typography>
               <Typography
