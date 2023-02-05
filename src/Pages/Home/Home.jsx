@@ -1,14 +1,16 @@
 import React from "react";
+import ContactForm from "../ContactForm/ContactForm";
+import Technology from "../Technology/Technology";
 import Hero from "./Hero/Hero";
-import Particle from "./Hero/Particles";
 import Services from "./Services/Services";
 
 const Home = () => {
   return (
     <div>
       <Hero></Hero>
-      {/* <Particle></Particle> */}
       <Services></Services>
+      <Technology></Technology>
+      <ContactForm></ContactForm>
     </div>
   );
 };
