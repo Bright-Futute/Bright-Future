@@ -31,7 +31,7 @@ const Services = () => {
 
   return (
     <section className="my-10">
-      <h2 className="text-4xl font-bold font-mono text-center">
+      <h2 className="text-4xl py-5 font-bold font-mono text-center">
         Services We Provide
       </h2>
       <div className="mt-5 px-6 container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 ">

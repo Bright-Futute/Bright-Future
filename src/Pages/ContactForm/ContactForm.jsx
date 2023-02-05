@@ -10,8 +10,8 @@ import {
 import image from "./image.gif";
 const ContactForm = () => {
   return (
-    <div>
-      <Grid container spacing={0} className="flex justify-center items-center">
+    <div className="">
+      <Grid container spacing={0} className="flex justify-center items-center ">
         <Grid sm={12} md={6} item>
           <div className="m-auto">
             <img src={image} alt="" className="w-full" />

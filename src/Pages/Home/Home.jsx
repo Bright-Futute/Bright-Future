@@ -1,7 +1,7 @@
 import React from "react";
 import ContactForm from "../ContactForm/ContactForm";
 import Technology from "../Technology/Technology";
-import Test from "../Test";
+import Test from "./Hero/Test";
 import Hero from "./Hero/Hero";
 import Services from "./Services/Services";
 

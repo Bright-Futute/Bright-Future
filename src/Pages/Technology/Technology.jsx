@@ -1,4 +1,5 @@
 import React from "react";
+import TimeLine from "../TimeLine";
 
 const Technology = () => {
   const technologies = [
@@ -37,13 +38,15 @@ const Technology = () => {
         <h1 className="text-[52px] font-bold font-mono ">
           Our Technology and Tools
         </h1>
-        <p className="mt-3 text-xl font-mono">
+        <p className="my-2 text-xl font-mono">
           We Use modern and update tech for our clients
           <br />
-          Those are most popular and demandable to user and customer ,{" "}
+          Those are most popular and demandable to user and customer
         </p>
       </div>
-      <section className="mt-3 grid grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+
+      <TimeLine></TimeLine>
+      {/* <section className="mt-3 grid grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
         {technologies.map((technology) => {
           const { name, img } = technology;
           return (
@@ -61,7 +64,7 @@ const Technology = () => {
             </div>
           );
         })}
-      </section>
+      </section> */}
     </div>
   );
 };
