@@ -11,6 +11,28 @@ import image from "./image.gif";
 const ContactForm = () => {
   return (
     <div className="">
+      <Typography
+        gutterBottom
+        variant="h5"
+        className="text-center font-bold"
+        style={{ fontWeight: "700", fontFamily: "monospace", fontSize: "52px" }}
+      >
+        Want to talk about your project?
+      </Typography>
+      <Typography
+        gutterBottom
+        color="textPrimary"
+        variant="body"
+        component="p"
+        style={{
+          color: "#3B80B8",
+          textAlign: "center",
+          fontFamily: "monospace",
+          fontSize: "20px",
+        }}
+      >
+        Fill up the form and our team will get back to you within 24 hours.
+      </Typography>
       <Grid container spacing={0} className="flex justify-center items-center ">
         <Grid sm={12} md={6} item>
           <div className="m-auto">
@@ -26,18 +48,17 @@ const ContactForm = () => {
                 gutterBottom
                 variant="h5"
                 className="text-center font-bold"
+                style={{
+                  fontWeight: "700",
+                  fontFamily: "monospace",
+                  paddingTop: "10px",
+                  paddingBottom: "10px",
+                  fontSize: "32px",
+                }}
               >
                 Contact Us
               </Typography>
-              <Typography
-                gutterBottom
-                color="textPrimary"
-                variant="body"
-                component="p"
-              >
-                fill up the form and our team will get back to you within 24
-                hours.
-              </Typography>
+
               <form>
                 <Grid container spacing={2}>
                   <Grid xs={12} item>
@@ -89,7 +110,7 @@ const ContactForm = () => {
                     <Button
                       type="submit"
                       variant="contained"
-                      color="primary"
+                      style={{ backgroundColor: "#3B80B8" }}
                       fullWidth
                     >
                       Submit

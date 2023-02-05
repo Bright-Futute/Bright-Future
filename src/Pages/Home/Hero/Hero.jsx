@@ -26,7 +26,7 @@ const Hero = () => {
             ></Typical>
           </ul>
           <button className=" my-4 bg-[#3B80B8] px-3 py-3 font-semibold rounded text-xl text-white">
-            More About Us
+            Let's Work Together
           </button>
         </aside>
         <Lottie
