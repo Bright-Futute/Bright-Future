@@ -30,7 +30,7 @@ const Hero = () => {
           </button>
         </aside>
         <Lottie
-          className="w-[500px] h-[500px]"
+          className="lg:w-[500px] lg:h-[500px]"
           animationData={Image}
           loop={true}
         />

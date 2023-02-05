@@ -130,7 +130,9 @@ const TimeLine = () => {
           iconStyle={{ background: "#3B80B8", color: "#fff" }}
         >
           <div>
-            <h1 className="text-xl font-bold py-2">Tools</h1>
+            <h1 className="text-xl font-bold py-2">
+              Payment Method Technology
+            </h1>
             <div className="grid grid-cols-5 gap-2">
               <img
                 className="w-[40px] h-[40px] rounded-full"
