@@ -1,11 +1,12 @@
 import React from "react";
+import Employee from "./Employee/Employee";
 import Image from "./HeroSectionOfBrightFuture.jpg";
 const About = () => {
   return (
-    <section id="about" className="lg:py-10 lg:pb-10">
+    <section id="about" className="lg:py-10 lg:pb-10 pt-20">
       <h2 className="text-center text-[40px] lg:text-[48px] font-mono font-bold lg:py-20">
         About
-        <span className="text-[#3B80B8] font-extrabold">Bright-Future</span>
+        <span className="text-[#3B80B8] font-extrabold"> Bright-Future</span>
       </h2>
 
       <div className="flex flex-col lg:flex-row px-10 gap-y-10 lg:gap-x-5">
@@ -25,6 +26,7 @@ const About = () => {
         </div>
         <img className="lg:w-2/4 rounded-lg" src={Image} alt="" />
       </div>
+      <Employee></Employee>
     </section>
   );
 };

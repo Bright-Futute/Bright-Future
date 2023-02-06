@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="navbar backdrop-blur-xl bg-[#96e9f233] rounded-lg">
         <div className="navbar-start flex justify-between lg:justify-start">
           <div className="dropdown mr-2 ">
-            <label tabIndex={0} className="lg:hidden">
+            <label tabIndex={0} className="lg:hidden cursor-pointer">
               <FaBars></FaBars>
             </label>
             <div>
@@ -16,7 +16,7 @@ const Navbar = () => {
                 className="menu menu-compact dropdown-content mt-3 p-2 shadow w-52 bg-[#3B80B8] font-bold text-white rounded"
               >
                 <li>
-                  <a href="/">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
                   <Link
@@ -24,7 +24,6 @@ const Navbar = () => {
                     smooth={true}
                     duration={1000}
                     delay={1000}
-                    isDynamic={true}
                     to="/#about"
                   >
                     About Us
@@ -36,14 +35,10 @@ const Navbar = () => {
                     smooth={true}
                     duration={1000}
                     delay={1000}
-                    isDynamic={true}
                     to="/#services"
                   >
                     Services
                   </Link>
-                </li>
-                <li>
-                  <a href="/">Clients</a>
                 </li>
                 <li>
                   <Link
@@ -103,8 +98,8 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-10 font-semibold ">
-            <li className="hover:bg-[#ADD8E6] hover:text-white hover:rounded-full">
-              <a href="/">Home</a>
+            <li className="">
+              <Link to="/#top">Home</Link>
             </li>
             <li>
               <Link
