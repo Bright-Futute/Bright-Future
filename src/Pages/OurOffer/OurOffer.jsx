@@ -6,7 +6,7 @@ import Animation3 from "./teamwork3.json";
 import Animation4 from "./teamwork4.json";
 const OurOffer = () => {
   return (
-    <section>
+    <section id="ourOffer" className="py-20">
       <div className="text-center container">
         <h2 className="font-bold font-mono text-[40px] lg:text-[48px] py-5">
           What we Offer

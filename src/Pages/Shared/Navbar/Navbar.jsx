@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars, FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { NavHashLink as Link } from "react-router-hash-link";
 const Navbar = () => {
   return (
     <div className="fixed top-0 w-full z-50 h-[56px]">
@@ -18,13 +19,51 @@ const Navbar = () => {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="/">About Us</a>
+                  <Link
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    delay={1000}
+                    isDynamic={true}
+                    to="/#about"
+                  >
+                    About Us
+                  </Link>
                 </li>
                 <li>
-                  <a href="/">Services</a>
+                  <Link
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    delay={1000}
+                    isDynamic={true}
+                    to="/#services"
+                  >
+                    Services
+                  </Link>
                 </li>
                 <li>
                   <a href="/">Clients</a>
+                </li>
+                <li>
+                  <Link
+                    smooth={true}
+                    duration={1000}
+                    delay={1000}
+                    to="/#ourOffer"
+                  >
+                    Our Offer
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    smooth={true}
+                    duration={1000}
+                    delay={1000}
+                    to="/#contact"
+                  >
+                    Contact
+                  </Link>
                 </li>
                 <hr />
                 <div className="flex justify-center items-center gap-5 py-2">
@@ -68,13 +107,48 @@ const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">About Us</a>
+              <Link
+                spy={true}
+                smooth={true}
+                duration={1000}
+                delay={1000}
+                isDynamic={true}
+                to="/#about"
+              >
+                About Us
+              </Link>
             </li>
-            <li>
-              <a href="/">Services</a>
-            </li>
+            <Link
+              spy={true}
+              smooth={true}
+              duration={1000}
+              delay={1000}
+              isDynamic={true}
+              to="/#services"
+            >
+              Services
+            </Link>
             <li>
               <a href="/">Clients</a>
+            </li>
+            <li>
+              <Link
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={50}
+                duration={1000}
+                delay={1000}
+                isDynamic={true}
+                to="/#ourOffer"
+              >
+                Our Offer
+              </Link>
+            </li>
+            <li>
+              <Link smooth={true} duration={1000} delay={1000} to="/#contact">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>

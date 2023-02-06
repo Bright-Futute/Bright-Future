@@ -2,9 +2,9 @@ import React from "react";
 import Image from "./HeroSectionOfBrightFuture.jpg";
 const About = () => {
   return (
-    <section className="py-10 pb-10">
-      <h2 className="text-center text-[40px] lg:text-[48px] font-mono font-bold py-20">
-        About{" "}
+    <section id="about" className="lg:py-10 lg:pb-10">
+      <h2 className="text-center text-[40px] lg:text-[48px] font-mono font-bold lg:py-20">
+        About
         <span className="text-[#3B80B8] font-extrabold">Bright-Future</span>
       </h2>
 

@@ -10,7 +10,7 @@ import {
 import image from "./image.gif";
 const ContactForm = () => {
   return (
-    <div className="">
+    <section id="contact" className="pt-20">
       <Typography
         gutterBottom
         variant="h5"
@@ -122,7 +122,7 @@ const ContactForm = () => {
           </Card>
         </Grid>
       </Grid>
-    </div>
+    </section>
   );
 };
 

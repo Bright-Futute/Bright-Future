@@ -30,7 +30,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="my-10">
+    <section id="services" className="py-10 pt-10">
       <h2 className="text-4xl py-5 font-bold font-mono text-center">
         Services We Provide
       </h2>
