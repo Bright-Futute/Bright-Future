@@ -20,7 +20,7 @@ const OurOffer = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-10">
         <div className="flex flex-col-reverse gap-2 items-center justify-center">
           <h2 className="text-xl font-mono font-bold text-[#3B80B8]">
             Qualified Expertise

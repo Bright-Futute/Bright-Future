@@ -30,7 +30,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-10 pt-10">
+    <section id="services" className="py-10 pt-20">
       <h2 className="text-4xl py-5 font-bold font-mono text-center">
         Services We Provide
       </h2>
@@ -45,9 +45,9 @@ const Services = () => {
                 alt=""
               />
               <div className="px-3 py-1">
-                <h1 className="text-2xl font-bold font-serif">{name}</h1>
+                <h1 className="text-2xl font-bold font-mono">{name}</h1>
                 <p>{details}</p>
-                <button className="my-3 bg-[#3B80B8] px-3 py-2 text-white rounded font-bold">
+                <button className="my-3 bg-[#3B80B8] px-3 py-2 text-white rounded font-bold font-mono">
                   Get Start With Us
                 </button>
               </div>

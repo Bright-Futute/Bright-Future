@@ -20,6 +20,8 @@ import Image13 from "./Technology/Images/sql.png";
 import Image14 from "./Technology/Images/ssl.png";
 import Image15 from "./Technology/Images/stripe.png";
 import Image16 from "./Technology/Images/vs.jpg";
+import Image17 from "./Technology/Images/git.png";
+import Image18 from "./Technology/Images/github.png";
 
 const TimeLine = () => {
   return (
@@ -120,6 +122,16 @@ const TimeLine = () => {
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image16}
+                alt=""
+              />
+              <img
+                className="w-[40px] h-[40px] rounded-full"
+                src={Image17}
+                alt=""
+              />
+              <img
+                className="w-[40px] h-[40px] rounded-full"
+                src={Image18}
                 alt=""
               />
             </div>

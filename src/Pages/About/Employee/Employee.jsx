@@ -36,7 +36,9 @@ const Employee = () => {
                     Md Mahadi Hasan
                   </h3>
                   <div className="flex flex-col">
-                    <span className="text-xs tracking-wide font-bold">CEO</span>
+                    <span className="text-xs tracking-wide font-bold">
+                      Founder & CEO
+                    </span>
                     <span className="text-xs tracking-wide font-bold">
                       MERN-Stack Developer
                     </span>

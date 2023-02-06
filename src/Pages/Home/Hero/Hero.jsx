@@ -29,7 +29,7 @@ const Hero = () => {
             ></Typical>
           </ul>
           <Link smooth={true} duration={1000} delay={1000} to="/#contact">
-            <button className=" my-4 bg-[#3B80B8] px-3 py-3 font-semibold rounded text-xl text-white">
+            <button className=" my-4 bg-[#3B80B8] px-3 py-3 font-semibold rounded text-xl text-white font-mono">
               Let's Work Together
             </button>
           </Link>

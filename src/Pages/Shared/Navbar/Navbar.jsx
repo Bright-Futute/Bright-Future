@@ -1,11 +1,12 @@
 import React from "react";
 import { FaBars, FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { NavHashLink as Link } from "react-router-hash-link";
+import Logo from "./bright.png";
 const Navbar = () => {
   return (
     <div className="fixed top-0 w-full z-50 h-[56px]">
-      <div className="navbar backdrop-blur-xl bg-[#96e9f233] rounded-lg">
-        <div className="navbar-start flex justify-between lg:justify-start">
+      <div className="navbar backdrop-blur-xl bg-[#96e9f233] rounded-lg ">
+        <div className="navbar-start flex justify-between lg:justify-start ">
           <div className="dropdown mr-2 ">
             <label tabIndex={0} className="lg:hidden cursor-pointer">
               <FaBars></FaBars>
@@ -92,14 +93,23 @@ const Navbar = () => {
           </div>
           <div>
             <a href="/" className="text-xl text-[#FF3F4A] font-bold">
-              Bright-Future
+              <img className="w-[200px] h-auto" src={Logo} alt="" />
             </a>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-10 font-semibold ">
             <li className="">
-              <Link to="/#top">Home</Link>
+              <Link
+                spy={true}
+                smooth={true}
+                duration={1000}
+                delay={1000}
+                isDynamic={true}
+                to="/#top"
+              >
+                Home
+              </Link>
             </li>
             <li>
               <Link
