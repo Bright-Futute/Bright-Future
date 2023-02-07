@@ -19,17 +19,7 @@ const Navbar = () => {
                 <li>
                   <Link to="/">Home</Link>
                 </li>
-                <li>
-                  <Link
-                    spy={true}
-                    smooth={true}
-                    duration={1000}
-                    delay={1000}
-                    to="/#about"
-                  >
-                    About Us
-                  </Link>
-                </li>
+
                 <li>
                   <Link
                     spy={true}
@@ -49,6 +39,17 @@ const Navbar = () => {
                     to="/#ourOffer"
                   >
                     Our Offer
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    delay={1000}
+                    to="/#about"
+                  >
+                    About Us
                   </Link>
                 </li>
                 <li>
@@ -111,18 +112,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li>
-              <Link
-                spy={true}
-                smooth={true}
-                duration={1000}
-                delay={1000}
-                isDynamic={true}
-                to="/#about"
-              >
-                About Us
-              </Link>
-            </li>
+
             <Link
               spy={true}
               smooth={true}
@@ -148,6 +138,18 @@ const Navbar = () => {
                 to="/#ourOffer"
               >
                 Our Offer
+              </Link>
+            </li>
+            <li>
+              <Link
+                spy={true}
+                smooth={true}
+                duration={1000}
+                delay={1000}
+                isDynamic={true}
+                to="/#about"
+              >
+                About Us
               </Link>
             </li>
             <li>
