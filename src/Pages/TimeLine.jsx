@@ -37,31 +37,37 @@ const TimeLine = () => {
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image1}
+                title="Tailwind CSS"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image2}
+                title="Bootstrap CSS"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image3}
+                title="JavaScript"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image4}
+                title="TypeScript"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image5}
+                title="ReactJS"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image6}
+                title="Redux"
                 alt=""
               />
             </div>
@@ -77,26 +83,31 @@ const TimeLine = () => {
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image7}
+                title="NodeJS"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image8}
+                title="ExpressJS"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image9}
+                title="MongoDB"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image12}
+                title="Mongoose"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image13}
+                title="SQL"
                 alt=""
               />
             </div>
@@ -112,26 +123,31 @@ const TimeLine = () => {
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image10}
+                title="Firebase"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image11}
+                title="Netlify"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image16}
+                title="VS Code"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image17}
+                title="Git"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image18}
+                title="GitHub"
                 alt=""
               />
             </div>
@@ -149,11 +165,13 @@ const TimeLine = () => {
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image14}
+                title="SSL E-commerz"
                 alt=""
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
                 src={Image15}
+                title="Stripe"
                 alt=""
               />
             </div>

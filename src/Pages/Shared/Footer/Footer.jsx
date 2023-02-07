@@ -20,7 +20,7 @@ const Footer = () => {
               <a
                 href="/"
                 aria-label="Go home"
-                title="Company"
+                title="Bright Future"
                 className="inline-flex items-center"
               >
                 <img className="h-[60px]" src={Logo} alt="" />
