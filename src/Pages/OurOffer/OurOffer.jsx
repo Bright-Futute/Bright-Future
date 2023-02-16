@@ -6,12 +6,12 @@ import Animation3 from "./teamwork3.json";
 import Animation4 from "./teamwork4.json";
 const OurOffer = () => {
   return (
-    <section id="ourOffer" className="py-20">
-      <div className="text-center container">
+    <section id="" className="custom-width pt-20 mx-auto">
+      <div className="text-center">
         <h2 className="font-bold font-mono text-[40px] lg:text-[48px] py-5">
           What we Offer
         </h2>
-        <p className="font-mono w-3/4 text-center mx-auto">
+        <p className="font-mono w-3/4 mx-auto text-justify">
           Bright-Future is an addition of your development and testing team. We
           will work together to resolve your business cases and get the most
           significant value out of your budget. One of our hallmarks is that we
@@ -20,7 +20,7 @@ const OurOffer = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-10">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-10 mt-10">
         <div className="flex flex-col-reverse gap-2 items-center justify-center">
           <h2 className="text-xl font-mono font-bold text-[#3B80B8]">
             Qualified Expertise

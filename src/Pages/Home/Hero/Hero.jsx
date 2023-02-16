@@ -5,10 +5,10 @@ import Image from "./web.json";
 import { NavHashLink as Link } from "react-router-hash-link";
 const Hero = () => {
   return (
-    <section className="mt-[70px] container -z-50">
-      <div className="block lg:flex  items-cen p-8 mx-auto">
-        <aside className="text-black lg:w-[55%] mx-auto py-20">
-          <h1 className="font-mono text-[30px] lg:text-4xl font-[800] lg:w-3/4 lg:my-10 text-center lg:text-start">
+    <section className="pt-20 w-11/12 mx-auto">
+      <div className="block lg:flex justify-between items-center">
+        <aside className="text-black lg:w-[55%] mx-auto">
+          <h1 className="font-mono text-[30px] lg:text-5xl font-[800] lg:w-3/4 lg:my-10 text-center lg:text-start">
             We Are Professional{" "}
             <span className="text-[#3B80B8]">Design & Development</span> Service
             Provider.

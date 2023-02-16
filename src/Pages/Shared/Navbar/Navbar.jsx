@@ -3,9 +3,95 @@ import { FaBars, FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { NavHashLink as Link } from "react-router-hash-link";
 import Logo from "./bright.png";
 const Navbar = () => {
+  let activeStyle = {
+    color: "#f9c301",
+  };
+
+  const menuList = (
+    <>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          duration={1000}
+          delay={1000}
+          isDynamic={true}
+          to="/#top"
+          className="nav-list"
+        >
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          duration={1000}
+          delay={1000}
+          isDynamic={true}
+          to="/#services"
+          className="nav-list"
+        >
+          Services
+        </Link>
+      </li>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          duration={1000}
+          delay={1000}
+          isDynamic={true}
+          to="/#services"
+          className="nav-list"
+        >
+          Clients
+        </Link>
+      </li>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          hashSpy={true}
+          offset={50}
+          duration={1000}
+          delay={1000}
+          isDynamic={true}
+          to="/#ourOffer"
+          className="nav-list"
+        >
+          Our offer
+        </Link>
+      </li>
+      <li>
+        <Link
+          spy={true}
+          smooth={true}
+          duration={1000}
+          delay={1000}
+          isDynamic={true}
+          to="/#about"
+          className="nav-list"
+        >
+          About us
+        </Link>
+      </li>
+      <li>
+        <Link
+          smooth={true}
+          duration={1000}
+          delay={1000}
+          to="/#contact"
+          className="nav-list"
+        >
+          Contact
+        </Link>
+      </li>
+    </>
+  );
   return (
-    <div className="fixed top-0 w-full z-50 h-[56px]">
-      <div className="navbar backdrop-blur-xl bg-[#96e9f233] rounded-lg ">
+    <div className="fixed top-0 w-full z-50 bg-[#ffffffdb] backdrop-blur-sm drop-shadow-sm">
+      <div className="navbar custom-width mx-auto">
         <div className="navbar-start flex justify-between lg:justify-start ">
           <div className="dropdown mr-2 ">
             <label tabIndex={0} className="lg:hidden cursor-pointer">
@@ -33,12 +119,23 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    delay={1000}
+                    to="/#clients"
+                  >
+                    Clients
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     smooth={true}
                     duration={1000}
                     delay={1000}
                     to="/#ourOffer"
                   >
-                    Our Offer
+                    Our offer
                   </Link>
                 </li>
                 <li>
@@ -49,7 +146,7 @@ const Navbar = () => {
                     delay={1000}
                     to="/#about"
                   >
-                    About Us
+                    About us
                   </Link>
                 </li>
                 <li>
@@ -94,75 +191,17 @@ const Navbar = () => {
           </div>
           <div>
             <a href="/" className="text-xl text-[#FF3F4A] font-bold">
-              <img className="w-[200px] h-auto" src={Logo} alt="" />
+              <img className="w-[140px] h-auto" src={Logo} alt="" />
             </a>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="flex gap-10 font-semibold ">
-            <li className="">
-              <Link
-                spy={true}
-                smooth={true}
-                duration={1000}
-                delay={1000}
-                isDynamic={true}
-                to="/#top"
-              >
-                Home
-              </Link>
-            </li>
-
-            <Link
-              spy={true}
-              smooth={true}
-              duration={1000}
-              delay={1000}
-              isDynamic={true}
-              to="/#services"
-            >
-              Services
-            </Link>
-            <li>
-              <a href="/">Clients</a>
-            </li>
-            <li>
-              <Link
-                spy={true}
-                smooth={true}
-                hashSpy={true}
-                offset={50}
-                duration={1000}
-                delay={1000}
-                isDynamic={true}
-                to="/#ourOffer"
-              >
-                Our Offer
-              </Link>
-            </li>
-            <li>
-              <Link
-                spy={true}
-                smooth={true}
-                duration={1000}
-                delay={1000}
-                isDynamic={true}
-                to="/#about"
-              >
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link smooth={true} duration={1000} delay={1000} to="/#contact">
-                Contact
-              </Link>
-            </li>
-          </ul>
+          <ul className="flex gap-10 font-semibold ">{menuList}</ul>
         </div>
         <div className="navbar-end hidden lg:block">
           <div className="flex justify-end items-center gap-5 ">
             <a
-              className="hover:bg-[#ADD8E6] p-2 rounded-full hover:text-black"
+              className="hover:bg-[#f9c3018f] p-2 rounded-full "
               href="https://www.linkedin.com/company/bright-future-bd/"
               target="_blank"
               rel="noreferrer"
@@ -170,7 +209,7 @@ const Navbar = () => {
               <FaLinkedinIn></FaLinkedinIn>
             </a>
             <a
-              className="hover:bg-[#ADD8E6] p-2 rounded-full hover:text-black"
+              className="hover:bg-[#f9c3018f] p-2 rounded-full "
               href="https://github.com/Bright-Futute"
               target="_blank"
               rel="noreferrer"
@@ -178,7 +217,7 @@ const Navbar = () => {
               <FaGithub></FaGithub>
             </a>
             <a
-              className="hover:bg-[#ADD8E6] p-2 rounded-full hover:text-black"
+              className="hover:bg-[#f9c3018f] p-2 rounded-full "
               href="https://www.facebook.com/brightfuture.soft"
               target="_blank"
               rel="noreferrer"

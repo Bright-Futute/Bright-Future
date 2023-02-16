@@ -33,15 +33,15 @@ const Technology = () => {
     },
   ];
   return (
-    <section id="technology" className="my-20 container px-7">
-      <div className="text-center">
+    <section id="technology" className="custom-width mx-auto pt-20">
+      <div className="text-center mb-10">
         <h1 className="text-[48px] font-bold font-mono ">
           Our Technology and Tools
         </h1>
         <p className="my-2 text-xl font-mono">
-          We Use modern and update tech for our clients
+          We Use modern and update tech for our clients Those
           <br />
-          Those are most popular and demandable to user and customer
+          are most popular and demandable to user and customer
         </p>
       </div>
 
