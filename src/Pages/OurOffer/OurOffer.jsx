@@ -6,7 +6,10 @@ import Animation3 from "./teamwork3.json";
 import Animation4 from "./teamwork4.json";
 const OurOffer = () => {
   return (
-    <section id="" className="custom-width pt-20 mx-auto">
+    <section
+      id=""
+      className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+    >
       <div className="text-center">
         <h2 className="font-bold font-mono text-[40px] lg:text-[48px] py-5">
           What we Offer

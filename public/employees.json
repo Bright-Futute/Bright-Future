@@ -3,54 +3,63 @@
         "_id": 101,
         "name": "Md. Mahadi Hasan",
         "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan"
+        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan",
+        "img": "./assets/musfiq.jpg"
     },
     {
         "_id": 102,
         "name": "Ashim Rudra Paul",
         "position": "Senior Frontend Engineer",
-        "linkedin": "https://www.linkedin.com/in/codewithashim"
+        "linkedin": "https://www.linkedin.com/in/codewithashim",
+        "img": "./assets/musfiq.jpg"
     },
     {
-        "_id": 101,
+        "_id": 103,
         "name": "Md. Mahadi Hasan",
         "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/"
+        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
+        "img": "./assets/musfiq.jpg"
     },
     {
-        "_id": 101,
+        "_id": 104,
         "name": "Md. Mahadi Hasan",
         "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/"
+        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
+        "img": "./assets/musfiq.jpg"
     },
     {
-        "_id": 101,
+        "_id": 105,
         "name": "Md. Mahadi Hasan",
         "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/"
+        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
+        "img": "./assets/musfiq.jpg"
     },
     {
-        "_id": 101,
+        "_id": 106,
         "name": "Md. Mahadi Hasan",
         "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/"
+        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
+        "img": "./assets/musfiq.jpg"
     },
     {
-        "_id": 101,
+        "_id": 107,
         "name": "Md. Mahadi Hasan",
         "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/"
-    },
-    {
-        "_id": 101,
-        "name": "Md. Mahadi Hasan",
-        "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/"
+        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
+        "img": "./assets/musfiq.jpg"
     },
     {
         "_id": 108,
+        "name": "Md. Mahadi Hasan",
+        "position": "CEO And Founder",
+        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
+        "img": "./assets/musfiq.jpg"
+    },
+    {
+        "_id": 109,
         "name": "Md. Musfiqur Rahman",
         "position": "Front End Developer",
-        "linkedin": "https://www.linkedin.com/in/musfiqurofficial"
+        "linkedin": "https://www.linkedin.com/in/musfiqurofficial",
+        "img": "./assets/musfiq.jpg"
     }
 ]

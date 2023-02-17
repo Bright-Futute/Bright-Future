@@ -1,21 +1,25 @@
 import React from "react";
 
 const EmployeeCard = ({ employee }) => {
-  const { name, position, linkedin } = employee;
+  const { name, position, linkedin, img } = employee;
   return (
-    <div class="flex justify-center">
-      <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
-        <img
-          class=" w-20 h-20 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
-          src=""
-          alt=""
-        />
-        <div class="p-6 flex flex-col justify-start">
-          <h5 class="text-gray-900 text-xl font-medium mb-2">{name}</h5>
-          <p class="text-gray-700 text-base mb-4">{position}</p>
-          <a href={linkedin}>Linkedin</a>
-        </div>
+    <div className="flex flex-col">
+      <div className="w-[45%] mx-auto">
+        <img src={img} alt="" />
       </div>
+      <div className="text-center">
+        <h3>{name}</h3>
+        <h5>{position}</h5>
+        <a href={linkedin}>Linkedin</a>
+      </div>
+      {/* <figure className="">
+        <img src={img} alt="" className="rounded-xl mx-auto w-max h-20" />
+      </figure>
+      <div className="card-body items-center text-center">
+        <h2 className="card-title">{name}</h2>
+        <p className="text-sm font-light">{position}</p>
+        <a href={linkedin}>Linkedin</a>
+      </div> */}
     </div>
   );
 };

@@ -91,7 +91,10 @@ const Navbar = () => {
   );
   return (
     <div className="fixed top-0 w-full z-50 bg-[#ffffffdb] backdrop-blur-sm drop-shadow-sm">
-      <div className="navbar custom-width mx-auto">
+      <div
+        className="navbar px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8
+ mx-auto "
+      >
         <div className="navbar-start flex justify-between lg:justify-start ">
           <div className="dropdown mr-2 ">
             <label tabIndex={0} className="lg:hidden cursor-pointer">
