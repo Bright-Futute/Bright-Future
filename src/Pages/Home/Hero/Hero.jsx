@@ -5,10 +5,10 @@ import Image from "./web.json";
 import { NavHashLink as Link } from "react-router-hash-link";
 const Hero = () => {
   return (
-    <section className="pt-20 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-      <div className="block lg:flex justify-between items-center">
-        <aside className="text-black lg:w-[55%]">
-          <h1 className="font-mono text-[30px] lg:text-5xl font-[800] lg:w-3/4 lg:my-10 text-center lg:text-start">
+    <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="block lg:flex justify-between items-center ">
+        <aside className="text-black lg:w-[75%]">
+          <h1 className="font-mono text-[30px] lg:text-4xl font-[800] lg:w-3/4 lg:my-10 text-center lg:text-start">
             We Are Professional{" "}
             <span className="text-[#3B80B8]">Design & Development</span> Service
             Provider.
@@ -35,7 +35,7 @@ const Hero = () => {
           </Link>
         </aside>
         <Lottie
-          className="lg:w-[500px] lg:h-[500px]"
+          className="lg:w-[500px] lg:h-[500px] p-3"
           animationData={Image}
           loop={true}
         />

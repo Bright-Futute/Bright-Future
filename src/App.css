@@ -1,5 +1,6 @@
+
 .App {
-  text-align: center;
+  background: #f7f7f7;
 }
 
 .App-logo {
@@ -37,15 +38,16 @@
   }
 }
 
-.custom-width{
+.custom-width {
   width: 95%;
 }
 
-.nav-list{
+.nav-list {
   position: relative;
-  padding: 0 10px
+  padding: 0 10px;
+  font-weight: 400;
 }
-.nav-list:after{
+.nav-list:after {
   content: "";
   position: absolute;
   background-color: #f9c301;
@@ -56,8 +58,6 @@
   transition: 0.3s;
 }
 
-.nav-list:hover:after{
+.nav-list:hover:after {
   width: 100%;
 }
-
-

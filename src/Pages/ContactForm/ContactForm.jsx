@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import {
   Button,
   Card,
@@ -8,7 +8,31 @@ import {
   Typography,
 } from "@mui/material";
 import image from "./image.gif";
+import emailjs from "@emailjs/browser";
+
 const ContactForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "thebrightfuture",
+        "template_igpf148",
+        form.current,
+        "k1X9xhaxBhNtWQbrr"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section id="contact" className="pt-20">
       <Typography
@@ -59,7 +83,7 @@ const ContactForm = () => {
                 Contact Us
               </Typography>
 
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <Grid container spacing={2}>
                   <Grid xs={12} item>
                     <TextField
@@ -67,6 +91,7 @@ const ContactForm = () => {
                       label="Name"
                       variant="outlined"
                       placeholder="Enter full name"
+                      name="user_name"
                       fullWidth
                       required
                     />
@@ -78,17 +103,7 @@ const ContactForm = () => {
                       label="Email"
                       variant="outlined"
                       placeholder="Enter email"
-                      fullWidth
-                      required
-                    />
-                  </Grid>
-                  <Grid xs={12} item>
-                    <TextField
-                      type="text"
-                      id="outlined-basic"
-                      label="Subject"
-                      variant="outlined"
-                      placeholder="Enter your subject"
+                      name="user_email"
                       fullWidth
                       required
                     />
@@ -102,6 +117,7 @@ const ContactForm = () => {
                       label="message"
                       variant="outlined"
                       placeholder="Type your message"
+                      name="message"
                       fullWidth
                       required
                     />

@@ -4,9 +4,11 @@ import Main from "./Layout/Main/Main";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Main></Main>
-    </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <Main></Main>
+      </BrowserRouter>
+    </div>
   );
 }
 

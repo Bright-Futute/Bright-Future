@@ -199,7 +199,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="flex gap-10 font-semibold ">{menuList}</ul>
+          <ul className="flex gap-3 font-semibold font-mono">{menuList}</ul>
         </div>
         <div className="navbar-end hidden lg:block">
           <div className="flex justify-end items-center gap-5 ">
