@@ -1,7 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 const ProjectDetails = () => {
+  const projects = useLoaderData();
+  console.log(projects);
   return (
     <div>
       <h2>Hello from </h2>

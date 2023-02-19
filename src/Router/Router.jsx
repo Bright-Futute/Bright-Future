@@ -7,6 +7,10 @@ const router = createBrowserRouter([
   {
     path: "details/:id",
     element: <ProjectDetails></ProjectDetails>,
+    loader: ({ params }) => {
+      //   console.log(params);
+      return fetch(`projects.json/${params.id}`);
+    },
   },
 ]);
 
