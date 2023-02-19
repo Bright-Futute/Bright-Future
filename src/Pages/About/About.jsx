@@ -3,13 +3,19 @@ import Employee from "./Employee/Employee";
 import Image from "./HeroSectionOfBrightFuture.jpg";
 const About = () => {
   return (
-    <section id="about" className="lg:py-10 lg:pb-10 pt-20">
-      <h2 className="text-center text-[40px] lg:text-[48px] font-mono font-bold lg:py-20">
+    <section
+      id="about"
+      className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+    >
+      <h2 className="text-center text-[40px] lg:text-[48px] font-mono font-bold">
         About
         <span className="text-[#3B80B8] font-extrabold"> Bright-Future</span>
       </h2>
 
-      <div className="flex flex-col lg:flex-row px-10 gap-y-10 lg:gap-x-5">
+      <div className="flex flex-col lg:flex-row gap-y-10 lg:gap-x-5 justify-between items-center">
+        <div className="w-[40%]">
+          <img className="rounded-lg drop-shadow-lg" src={Image} alt="" />
+        </div>
         <div className=" lg:w-2/4 py-20">
           <h1 className="text-2xl font-mono font-bold py-5">
             Bright Future For Your Bright Solution
@@ -24,9 +30,7 @@ const About = () => {
             tempora eligendi voluptates accusamus.
           </p>
         </div>
-        <img className="lg:w-2/4 rounded-lg" src={Image} alt="" />
       </div>
-      <Employee></Employee>
     </section>
   );
 };

@@ -1,5 +1,13 @@
 import React from "react";
-import Logo from "../Navbar/bright.png";
+
+import {
+  FaFacebookSquare,
+  FaTwitterSquare,
+  FaLinkedin,
+  FaInstagramSquare,
+} from "react-icons/fa";
+import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
+
 const Footer = () => {
   return (
     <section className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl p-8">
@@ -227,6 +235,28 @@ const Footer = () => {
             </a>
           </div>
         </div>
+      </div>
+
+      <div className="fixed right-3 bottom-1/2 translate-y-1/2 space-y-4">
+        <a href="#" target="_blank">
+          <FaLinkedin className="w-6 h-6 my-2 fill-[#0072b1] hover:fill-[#fe9105]" />
+        </a>
+        <a href="#" target="_blank">
+          <FaFacebookSquare className="w-6 h-6 my-2 fill-[#3b5998] hover:fill-[#fe9105]" />
+        </a>
+        <a href="#" target="_blank">
+          <FaTwitterSquare className="w-6 h-6 my-2 fill-[#00acee] hover:fill-[#fe9105]" />
+        </a>
+        <a href="#" target="_blank">
+          {" "}
+          <FaInstagramSquare className="w-6 h-6 my-2 fill-[#bc2a8d] hover:fill-[#fe9105]" />
+        </a>
+      </div>
+      <div>
+        <MessengerCustomerChat
+          pageId="103403042306120"
+          appId="548600976691231"
+        />
       </div>
     </section>
   );

@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cards";
 
-import "./styles.css";
+import styles from "./styles.module.css";
 
 // import required modules
 import { EffectCards } from "swiper";
@@ -32,10 +32,10 @@ const Employee = () => {
           effect={"cards"}
           grabCursor={true}
           modules={[EffectCards]}
-          className="mySwiper"
+          className={styles.swiper}
         >
           {employees?.map((employee) => (
-            <SwiperSlide>
+            <SwiperSlide className={styles.swiperSlide}>
               <EmployeeCard
                 key={employee._id}
                 employee={employee}
