@@ -17,7 +17,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Hero = () => {
   return (
-    <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -26,14 +26,15 @@ const Hero = () => {
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
-        className="mySwiper"
+        className=""
       >
         <SwiperSlide>
-          <div className="block lg:flex justify-between items-center ">
-            <aside className="text-black lg:w-[75%]">
-              <h1 className="font-mono text-[30px] lg:text-4xl font-[800] lg:w-3/4 lg:my-10 text-center lg:text-start">
-                We Are Professional{" "}
-                <span className="text-[#3B80B8]">Design & Development</span>{" "}
+          <div className="lg:flex justify-around items-center ">
+            <aside className="text-black">
+              <h1 className="font-mono text-[30px] lg:text-5xl font-[800] text-center lg:text-start">
+                We Are Professional <br />
+                <span className="text-[#3B80B8]">Design & Development</span>
+                <br />
                 Service Provider.
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
@@ -58,18 +59,19 @@ const Hero = () => {
               </Link>
             </aside>
             <Lottie
-              className="lg:w-[500px] lg:h-[500px] p-3"
+              className="lg:w-[420px] lg:h-[420px]"
               animationData={Image}
               loop={true}
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="block lg:flex justify-between items-center ">
-            <aside className="text-black lg:w-[75%]">
-              <h1 className="font-mono text-[30px] lg:text-4xl font-[800] lg:w-3/4 lg:my-10 text-center lg:text-start">
-                We Are Professional{" "}
-                <span className="text-[#3B80B8]">Design & Development</span>{" "}
+          <div className="lg:flex justify-around items-center ">
+            <aside className="text-black">
+              <h1 className="font-mono text-[30px] lg:text-5xl font-[800] text-center lg:text-start">
+                We Are Professional <br />
+                <span className="text-[#3B80B8]">Design & Development</span>
+                <br />
                 Service Provider.
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
@@ -94,18 +96,19 @@ const Hero = () => {
               </Link>
             </aside>
             <Lottie
-              className="lg:w-[500px] lg:h-[500px] p-3"
+              className="lg:w-[420px] lg:h-[420px]"
               animationData={Image}
               loop={true}
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="block lg:flex justify-between items-center ">
-            <aside className="text-black lg:w-[75%]">
-              <h1 className="font-mono text-[30px] lg:text-4xl font-[800] lg:w-3/4 lg:my-10 text-center lg:text-start">
-                We Are Professional{" "}
-                <span className="text-[#3B80B8]">Design & Development</span>{" "}
+          <div className="lg:flex justify-around items-center ">
+            <aside className="text-black">
+              <h1 className="font-mono text-[30px] lg:text-5xl font-[800] text-center lg:text-start">
+                We Are Professional <br />
+                <span className="text-[#3B80B8]">Design & Development</span>
+                <br />
                 Service Provider.
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
@@ -130,7 +133,44 @@ const Hero = () => {
               </Link>
             </aside>
             <Lottie
-              className="lg:w-[500px] lg:h-[500px] p-3"
+              className="lg:w-[420px] lg:h-[420px]"
+              animationData={Image}
+              loop={true}
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="lg:flex justify-around items-center ">
+            <aside className="text-black">
+              <h1 className="font-mono text-[30px] lg:text-5xl font-[800] text-center lg:text-start">
+                We Are Professional <br />
+                <span className="text-[#3B80B8]">Design & Development</span>
+                <br />
+                Service Provider.
+              </h1>
+              <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
+                <Typical
+                  className="text-left text-2xl text-teal-700"
+                  loop={Infinity}
+                  wrapper="b"
+                  steps={[
+                    "Client Management",
+                    2000,
+                    "Develop and Designing",
+                    2000,
+                    "Web Application Based Interface",
+                    2000,
+                  ]}
+                ></Typical>
+              </ul>
+              <Link smooth={true} duration={1000} delay={1000} to="/#contact">
+                <button className=" my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl text-white font-mono">
+                  Let's Work Together
+                </button>
+              </Link>
+            </aside>
+            <Lottie
+              className="lg:w-[420px] lg:h-[420px]"
               animationData={Image}
               loop={true}
             />

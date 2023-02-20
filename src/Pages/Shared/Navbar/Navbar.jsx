@@ -30,7 +30,7 @@ const Navbar = () => {
           delay={1000}
           isDynamic={true}
           to="/#about"
-          className="nav-list uppercase "
+          className="nav-list uppercase"
         >
           About us
         </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
           delay={1000}
           isDynamic={true}
           to="/#service"
-          className="nav-list uppercase "
+          className="nav-list uppercase"
         >
           Services
         </Link>
@@ -231,8 +231,22 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-3 font-semibold font-mono">{menuList}</ul>
         </div>
-        <div className="navbar-end hidden lg:block">
-         
+        <div className="navbar-end hidden lg:block text-end">
+          <Link
+            smooth={true}
+            duration={1000}
+            delay={1000}
+            to="/#contact"
+            className="transition duration-500 transform px-6 py-3 rounded-full inline hover:bg-[#3B80B8]
+            bg-[#fe9105]
+            text-white
+            text-lg
+            shadow-sm
+            hover:shadow-xl
+            hover:scale-125 italic"
+          >
+            contact us
+          </Link>
         </div>
       </div>
     </div>
