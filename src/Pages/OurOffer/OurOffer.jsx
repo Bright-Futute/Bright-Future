@@ -8,13 +8,13 @@ const OurOffer = () => {
   return (
     <section
       id=""
-      className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+      className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-20"
     >
       <div className="text-center">
-        <h2 className="font-bold font-mono text-[40px] lg:text-[48px] py-5">
+        <h2 className="font-mono text-[20px] lg:text-4xl font-[700]">
           What we Offer
         </h2>
-        <p className="font-mono w-3/4 mx-auto text-justify">
+        <p className="mt-8 text-xl font-mono lg:w-8/12 text-justify mx-auto">
           Bright-Future is an addition of your development and testing team. We
           will work together to resolve your business cases and get the most
           significant value out of your budget. One of our hallmarks is that we

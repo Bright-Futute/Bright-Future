@@ -12,7 +12,7 @@ const Services = () => {
       id="services"
       className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
-      <h2 className="text-4xl text-gray-700 font-bold font-mono text-center pb-5 drop-shadow-md">
+      <h2 className="text-[20px] lg:text-4xl font-[700] font-mono text-center pb-5 drop-shadow-md">
         <span className="text-[#3B80B8] drop-shadow-md">Services</span> We
         Provide
       </h2>

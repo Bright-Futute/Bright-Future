@@ -1,13 +1,12 @@
 import React from "react";
-import Employee from "./Employee/Employee";
 import Image from "./HeroSectionOfBrightFuture.jpg";
 const About = () => {
   return (
     <section
       id="about"
-      className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+      className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-20"
     >
-      <h2 className="text-center text-[40px] lg:text-[48px] font-mono font-bold">
+      <h2 className="text-center font-mono text-[20px] lg:text-4xl font-[700]">
         About
         <span className="text-[#3B80B8] font-extrabold"> Bright-Future</span>
       </h2>

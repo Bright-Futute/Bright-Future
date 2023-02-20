@@ -8,26 +8,29 @@ const ProjectDetails = () => {
   useEffect(() => {
     fetch("/projects.json")
       .then((response) => response.json())
-      .then((data) =>
-        setItem(data.find((item) => item._id === parseInt(id)))
-      );
+      .then((data) => setItem(data.find((item) => item._id === parseInt(id))));
   }, [id]);
-
+  console.log(item?.img);
   if (!item) {
     return <div>Loading...</div>;
   }
 
   return (
-    <div>
-      <h2>Hello from </h2>
-      <Link to="/">
-        <button>Back to Home</button>
-      </Link>
-      <div>
-        <h2>{item.name}</h2>
-        <p>{item.feature}</p>
+      <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">Shoes!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
       </div>
-    </div>
   );
 };
 

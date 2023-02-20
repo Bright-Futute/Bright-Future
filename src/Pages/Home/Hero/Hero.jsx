@@ -35,7 +35,7 @@ const Hero = () => {
                 We Are Professional <br />
                 <span className="text-[#3B80B8]">Design & Development</span>
                 <br />
-                Service Provider.
+                Service Provider
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                 <Typical
@@ -72,7 +72,7 @@ const Hero = () => {
                 We Are Professional <br />
                 <span className="text-[#3B80B8]">Design & Development</span>
                 <br />
-                Service Provider.
+                Service Provider
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                 <Typical
@@ -109,7 +109,7 @@ const Hero = () => {
                 We Are Professional <br />
                 <span className="text-[#3B80B8]">Design & Development</span>
                 <br />
-                Service Provider.
+                Service Provider
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                 <Typical
@@ -146,7 +146,7 @@ const Hero = () => {
                 We Are Professional <br />
                 <span className="text-[#3B80B8]">Design & Development</span>
                 <br />
-                Service Provider.
+                Service Provider
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                 <Typical
