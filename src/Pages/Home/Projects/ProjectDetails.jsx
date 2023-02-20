@@ -12,7 +12,6 @@ const ProjectDetails = () => {
         setItem(data.find((item) => item._id === parseInt(id)))
       );
   }, [id]);
-  console.log(item);
 
   if (!item) {
     return <div>Loading...</div>;
