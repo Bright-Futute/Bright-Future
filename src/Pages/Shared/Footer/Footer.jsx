@@ -205,7 +205,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-between pt-5 border-t border-purple-200 sm:flex-row">
           <p className="text-sm text-gray-100">
-            © Copyright 2020 Lorem Inc. All rights reserved.
+            © Copyright 2022 Bright Future. All rights reserved.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
@@ -238,9 +238,9 @@ const Footer = () => {
       </div>
 
       <div className="fixed right-0 bottom-1/2 translate-y-1/2 space-y-4">
-          <a href="#" target="_blank">
-            <FaLinkedin className="w-8 h-8 hover:w-7 hover:h-7 my-2 fill-[#0072b1]" />
-          </a>
+        <a href="#" target="_blank">
+          <FaLinkedin className="w-8 h-8 hover:w-7 hover:h-7 my-2 fill-[#0072b1]" />
+        </a>
         <a href="#" target="_blank">
           <FaFacebookSquare className="w-8 h-8 hover:w-7 hover:h-7 my-2 fill-[#3b5998]" />
         </a>

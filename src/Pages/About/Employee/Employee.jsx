@@ -20,7 +20,7 @@ const Employee = () => {
       .then((data) => SetEmployees(data));
   }, []);
   return (
-    <div className="px-4 my-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="flex justify-center items-center relative">
         <h2 className="text-[72px] tracking-widest font-mono pb-5 text-[#fe9105] drop-shadow-md text-modeChange absolute left-[230px] uppercase">
           Our

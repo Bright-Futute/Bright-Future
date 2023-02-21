@@ -8,11 +8,11 @@ const OurOffer = () => {
   return (
     <section
       id=""
-      className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-20"
+      className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
       <div className="text-center">
         <h2 className="font-mono text-[20px] lg:text-4xl font-[700]">
-          What we Offer
+          What we <span className="text-[#3B80B8] drop-shadow-md">Offer</span>
         </h2>
         <p className="mt-8 text-xl font-mono lg:w-8/12 text-justify mx-auto">
           Bright-Future is an addition of your development and testing team. We

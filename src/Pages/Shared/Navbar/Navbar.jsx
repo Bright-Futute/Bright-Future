@@ -120,7 +120,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="sticky top-0 w-full z-50 bg-[#ffffffdb] backdrop-blur-sm drop-shadow-sm">
+    <div className="sticky top-0 w-full z-50 bg-[#ffffffdb] backdrop-blur-sm shadow-sm">
       <div
         className="navbar px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8
  mx-auto "

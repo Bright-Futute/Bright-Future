@@ -11,28 +11,28 @@ import Projects from "./Projects/Projects";
 const Home = () => {
   return (
     <>
-      <div id="top">
+      <div className="bg-[#001E00] mb-20" id="top">
         <Hero></Hero>
       </div>
-      <div id="about">
+      <div className="mb-20" id="about">
         <About></About>
       </div>
-      <div id="service">
+      <div className="mb-20 bg-[#f7f7f7] py-10" id="service">
         <Services></Services>
       </div>
-      <div id="technology">
+      <div className="mb-20" id="technology">
         <Technology></Technology>
       </div>
-      <div id="offer">
+      <div className="mb-20 bg-[#f7f7f7] py-10" id="offer">
         <OurOffer></OurOffer>
       </div>
-      <div id="projects">
+      <div className="mb-20" id="projects">
         <Projects></Projects>
       </div>
-      <div id="team">
+      <div className="mb-20 bg-[#f7f7f7] py-10" id="team">
         <Employee></Employee>
       </div>
-      <div id="contact">
+      <div className="mb-20" id="contact">
         <ContactForm />
       </div>
     </>

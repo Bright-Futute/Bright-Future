@@ -33,10 +33,10 @@ const Technology = () => {
     },
   ];
   return (
-    <section id="technology" className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-20">
+    <section id="technology" className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="text-center mb-10">
         <h2 className="text-[20px] lg:text-4xl font-[700] font-mono ">
-          Our Technology and Tools
+          Our <span className="text-[#3B80B8] drop-shadow-md">Technology</span> and <span className="text-[#3B80B8] drop-shadow-md">Tools</span>
         </h2>
         <p className="mt-8 text-xl font-mono lg:w-8/12 mx-auto">
           We Use modern and update tech for our clients Those
