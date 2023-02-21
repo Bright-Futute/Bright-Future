@@ -35,11 +35,8 @@ const Employee = () => {
           className={styles.swiper}
         >
           {employees?.map((employee) => (
-            <SwiperSlide className={styles.swiperSlide}>
-              <EmployeeCard
-                key={employee._id}
-                employee={employee}
-              ></EmployeeCard>
+            <SwiperSlide key={employee._id} className={styles.swiperSlide}>
+              <EmployeeCard employee={employee}></EmployeeCard>
             </SwiperSlide>
           ))}
         </Swiper>
