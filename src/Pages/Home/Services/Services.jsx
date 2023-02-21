@@ -16,11 +16,11 @@ const Services = () => {
         <span className="text-[#3B80B8] drop-shadow-md">Services</span> We
         Provide
       </h2>
-      <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ">
+      <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         <div className="bg-white drop-shadow-sm flex flex-col justify-between hover:border-2 hover:border-[#f8d30067]">
           <div className="shadow-sm bg-[#fe9105] rounded-r-full">
             <Lottie
-              className="lg:w-[250px] lg:h-[25`0px] mx-auto"
+              className="w-full h-[250px] mx-auto"
               animationData={UiUx}
               loop={true}
             />
@@ -32,7 +32,7 @@ const Services = () => {
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <button className="mt-5 w-full bg-[#fe9105] py-2 text-black rounded-b-sm font-bold font-mono">
+            <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold font-mono">
               Get Start With Us
             </button>
           </div>
@@ -41,7 +41,7 @@ const Services = () => {
         <div className="bg-white drop-shadow-sm flex flex-col rounded-xl hover:border-2 hover:border-[#f8d30067]">
           <div className="drop-shadow-lg bg-[#fe9105] rounded-l-full">
             <Lottie
-              className="lg:w-[250px] lg:h-[25`0px] mx-auto"
+              className="w-full h-[250px] mx-auto"
               animationData={AppDev}
               loop={true}
             />
@@ -53,7 +53,7 @@ const Services = () => {
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <button className="mt-5 w-full bg-[#fe9105] py-2 text-black rounded-b-sm font-bold font-mono">
+            <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold font-mono">
               Get Start With Us
             </button>
           </div>
@@ -62,7 +62,7 @@ const Services = () => {
         <div className="bg-white drop-shadow-sm flex flex-col rounded-xl hover:border-2 hover:border-[#f8d30067]">
           <div className="drop-shadow-lg bg-[#fe9105] rounded-bl-full">
             <Lottie
-              className="lg:w-[250px] lg:h-[25`0px] mx-auto"
+              className="w-full h-[250px] mx-auto"
               animationData={FullStack}
               loop={true}
             />
@@ -74,7 +74,7 @@ const Services = () => {
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <button className="mt-5 w-full bg-[#fe9105] py-2 text-black rounded-b-sm font-bold font-mono">
+            <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold font-mono">
               Get Start With Us
             </button>
           </div>
@@ -83,7 +83,7 @@ const Services = () => {
         <div className="bg-white drop-shadow-sm flex flex-col rounded-xl hover:border-2 hover:border-[#f8d30067]">
           <div className="drop-shadow-lg bg-[#fe9105] rounded-br-full">
             <Lottie
-              className="lg:w-[250px] lg:h-[25`0px] mx-auto"
+              className="w-full h-[250px] mx-auto"
               animationData={WebDev}
               loop={true}
             />
@@ -95,7 +95,7 @@ const Services = () => {
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <button className="mt-5 w-full bg-[#fe9105] py-2 text-black rounded-b-sm font-bold font-mono">
+            <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold font-mono">
               Get Start With Us
             </button>
           </div>

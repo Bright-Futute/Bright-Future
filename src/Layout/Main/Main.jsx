@@ -8,7 +8,9 @@ const Main = () => {
     <div>
       <Navbar></Navbar>
       <Outlet />
+      <div className="bg-[#f7f7f7]">
       <Footer></Footer>
+      </div>
     </div>
   );
 };

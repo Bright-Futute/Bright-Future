@@ -1,9 +1,9 @@
-.swiper {
+.swiperHero {
     width: 100%;
     height: 100%;
   }
   
-  .swiper-slide {
+  .swiperSlideHero {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -14,7 +14,7 @@
     align-items: center;
   }
   
-  .swiper-slide img {
+  .swiperSlideHero img {
     display: block;
     width: 100%;
     height: 100%;

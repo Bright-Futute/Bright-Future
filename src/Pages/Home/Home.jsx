@@ -7,6 +7,7 @@ import About from "../About/About";
 import OurOffer from "../OurOffer/OurOffer";
 import Employee from "../About/Employee/Employee";
 import Projects from "./Projects/Projects";
+import Testimonial from "../Testimonials/Testimonial";
 
 const Home = () => {
   return (
@@ -32,7 +33,10 @@ const Home = () => {
       <div className="mb-20 bg-[#f7f7f7] py-10" id="team">
         <Employee></Employee>
       </div>
-      <div className="mb-20" id="contact">
+      <div className="mb-20" id="testimonial">
+        <Testimonial />
+      </div>
+      <div className="bg-[#f7f7f7] py-10" id="contact">
         <ContactForm />
       </div>
     </>

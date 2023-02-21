@@ -57,7 +57,7 @@ const ContactForm = () => {
         </Grid>
         <Grid sm={12} md={6} item fullWidth>
           <Card
-          className="shadow-none drop-shadow-none"
+          className="contact-card"
             style={{ maxWidth: 500, margin: "0 auto", padding: "20px 5px" }}
           >
             <CardContent>

@@ -10,14 +10,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import hero from "./hero.module.css";
+import HeroStyle from "./hero.module.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Hero = () => {
   return (
-    <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+    <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 py-6">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -76,7 +76,7 @@ const Hero = () => {
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                 <Typical
-                  className="text-left text-2xl text-teal-700"
+                  className="text-left text-2xl text-[#f8d400]"
                   loop={Infinity}
                   wrapper="b"
                   steps={[
@@ -113,7 +113,7 @@ const Hero = () => {
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                 <Typical
-                  className="text-left text-2xl text-teal-700"
+                  className="text-left text-2xl text-[#f8d400]"
                   loop={Infinity}
                   wrapper="b"
                   steps={[
@@ -150,7 +150,7 @@ const Hero = () => {
               </h1>
               <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                 <Typical
-                  className="text-left text-2xl text-teal-700"
+                  className="text-left text-2xl text-[#f8d400]"
                   loop={Infinity}
                   wrapper="b"
                   steps={[

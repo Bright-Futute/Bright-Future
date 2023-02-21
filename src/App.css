@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+.unique-font {
+  font-family: "Caveat", cursive;
+}
+
 .App {
   background: #f7f7f7;
 }
@@ -67,4 +72,9 @@
 }
 .text-modeChangeR {
   writing-mode: vertical-rl;
+}
+
+.contact-card {
+  background: #ffffff00 !important;
+  box-shadow: none !important;
 }
