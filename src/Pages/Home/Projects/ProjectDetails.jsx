@@ -38,7 +38,9 @@ const ProjectDetails = () => {
               <span className="font-bold text-xl">Technology Used:</span>
               {item?.tech.map((t, i) => (
                 <>
-                  <button className="btn btn-sm text-white ml-2">{t}</button>
+                  <button className="btn btn-sm text-white ml-2 cursor-default">
+                    {t}
+                  </button>
                 </>
               ))}
             </p>
