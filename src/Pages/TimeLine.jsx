@@ -94,7 +94,7 @@ const TimeLine = () => {
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
-                src={Image9}
+                src="https://upload.wikimedia.org/wikipedia/commons/3/32/Mongo-db-logo.png"
                 title="MongoDB"
                 alt=""
               />
@@ -170,7 +170,7 @@ const TimeLine = () => {
               />
               <img
                 className="w-[40px] h-[40px] rounded-full"
-                src={Image15}
+                src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg"
                 title="Stripe"
                 alt=""
               />

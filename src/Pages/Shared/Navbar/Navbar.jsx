@@ -29,7 +29,7 @@ const Navbar = () => {
           duration={1000}
           delay={1000}
           isDynamic={true}
-          to="/#about"
+          to="/about"
           className="nav-list uppercase"
         >
           About us
@@ -193,39 +193,13 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <hr />
-                <div className="flex justify-center items-center gap-5 py-2">
-                  <a
-                    className="hover:bg-[#FF3F4A] p-2 rounded-full hover:text-white"
-                    href="https://www.linkedin.com/company/bright-future-bd/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaLinkedinIn></FaLinkedinIn>
-                  </a>
-                  <a
-                    className="hover:bg-[#FF3F4A] p-2 rounded-full hover:text-white"
-                    href="https://github.com/Bright-Futute"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaGithub></FaGithub>
-                  </a>
-                  <a
-                    className="hover:bg-[#FF3F4A] p-2 rounded-full hover:text-white"
-                    href="https://www.facebook.com/brightfuture.soft"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaFacebook></FaFacebook>
-                  </a>
-                </div>
               </ul>
             </div>
           </div>
           <div>
-            <a href="/" className="text-xl text-[#FF3F4A] font-bold">
+            <Link to="/#top" className="text-xl text-[#FF3F4A] font-bold">
               <img className="w-[140px] h-auto" src={Logo} alt="" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">

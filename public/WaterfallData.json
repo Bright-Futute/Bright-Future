@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "201",
+        "name": "Requirement Gathering ",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio repellendus, assumenda molestias deleniti consectetur! Tempora amet magnam libero accusantium!",
+        "icon": "./waterfallImg/required.png"
+    },
+    {
+        "_id": "202",
+        "name": "Analysis",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio repellendus, assumenda molestias deleniti consectetur! Tempora amet magnam libero accusantium!",
+        "icon": "./waterfallImg/analysis.png"
+    },
+    {
+        "_id": "203",
+        "name": "System Design",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio repellendus, assumenda molestias deleniti consectetur! Tempora amet magnam libero accusantium!",
+        "icon": "./waterfallImg/design.png"
+    },
+    {
+        "_id": "204",
+        "name": "Coding Implementation",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio repellendus, assumenda molestias deleniti consectetur! Tempora amet magnam libero accusantium!",
+        "icon": "./waterfallImg/coding.png"
+    },
+    {
+        "_id": "205",
+        "name": "Integration and Testing",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio repellendus, assumenda molestias deleniti consectetur! Tempora amet magnam libero accusantium!",
+        "icon": "./waterfallImg/system-testing.png"
+    },
+    {
+        "_id": "206",
+        "name": "Deployment of system",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio repellendus, assumenda molestias deleniti consectetur! Tempora amet magnam libero accusantium!",
+        "icon": "./waterfallImg/deployment.png"
+    },
+    {
+        "_id": "207",
+        "title": "Maintenance",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio repellendus, assumenda molestias deleniti consectetur! Tempora amet magnam libero accusantium!",
+        "icon": "./waterfallImg/web-management.png"
+    }
+]

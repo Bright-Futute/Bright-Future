@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
         </div>
       </div>
       <div>
-        <h2 className="text-white font-mono font-bold text-center py-2">
+        <h2 className="text-white  font-bold text-center py-2">
           {project?.name}
         </h2>
       </div>

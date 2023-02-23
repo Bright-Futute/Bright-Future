@@ -12,7 +12,7 @@ const Services = () => {
       id="services"
       className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
-      <h2 className="text-[20px] lg:text-4xl font-[700] font-mono text-center mb-10 drop-shadow-md">
+      <h2 className="text-sty text-[20px] lg:text-4xl font-[700]  text-center mb-10 drop-shadow-md">
         <span className="text-[#3B80B8] drop-shadow-md">Services</span> We
         Provide
       </h2>
@@ -26,9 +26,9 @@ const Services = () => {
             />
           </div>
           <div className=" pt-2 pb-0">
-            <h1 className="text-2xl px-5 text-center font-bold mb-3 font-mono underline text-[#3B80B8]">
+            <h4 className="text-xl mt-4 px-5 text-center font-bold mb-3  underline text-[#3B80B8]">
               Ui/UX Design
-            </h1>
+            </h4>
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
@@ -47,9 +47,9 @@ const Services = () => {
             />
           </div>
           <div className="bg-[] pt-2 pb-0">
-            <h1 className="text-2xl px-5 text-center font-bold mb-3 font-mono underline text-[#3B80B8]">
+            <h4 className="text-xl mt-4 px-5 text-center font-bold mb-3  underline text-[#3B80B8]">
               App Development
-            </h1>
+            </h4>
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
@@ -68,9 +68,9 @@ const Services = () => {
             />
           </div>
           <div className="bg-[] pt-2 pb-0">
-            <h1 className="text-2xl px-5 text-center font-bold mb-3 font-mono underline text-[#3B80B8]">
+            <h4 className="text-xl mt-4 px-5 text-center font-bold mb-3  underline text-[#3B80B8]">
               Full Stack
-            </h1>
+            </h4>
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
@@ -89,9 +89,9 @@ const Services = () => {
             />
           </div>
           <div className="bg-[] pt-2 pb-0">
-            <h1 className="text-2xl px-5 text-center font-bold mb-3 font-mono underline text-[#3B80B8]">
+            <h4 className="text-xl mt-4 px-5 text-center font-bold mb-3  underline text-[#3B80B8]">
               Web Development
-            </h1>
+            </h4>
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
