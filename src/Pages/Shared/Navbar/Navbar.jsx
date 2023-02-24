@@ -29,7 +29,7 @@ const Navbar = () => {
           duration={1000}
           delay={1000}
           isDynamic={true}
-          to="/#about"
+          to="/about"
           className="nav-list uppercase "
         >
           About us
@@ -231,9 +231,7 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-3 font-semibold font-mono">{menuList}</ul>
         </div>
-        <div className="navbar-end hidden lg:block">
-         
-        </div>
+        <div className="navbar-end hidden lg:block"></div>
       </div>
     </div>
   );
