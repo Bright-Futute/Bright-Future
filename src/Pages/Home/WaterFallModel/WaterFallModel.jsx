@@ -17,12 +17,12 @@ const WaterFallModel = () => {
     {
       title: "Design",
       description:
-        "Design the system architecture and define the system components.",
+        "The requirement specifications from first phase are studied in this phase and the system design is prepared. This system design helps in specifying hardware and system requirements and helps in defining the overall system architecture.",
       icon: "./waterfallImg/design.png",
     },
     {
       title: "Coding",
-      description: "Implement the system components according to the design.",
+      description: "With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. Each unit is developed and tested for its functionality, which is referred to as Unit Testing",
       icon: "./waterfallImg/coding.png",
     },
     {

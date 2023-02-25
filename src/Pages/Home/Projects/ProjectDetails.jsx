@@ -26,7 +26,6 @@ const ProjectDetails = () => {
   console.log(item?.tech);
   return (
     <section>
-      <Navbar></Navbar>
       <section className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="flex flex-col gap-y-10">
           <div>
@@ -64,7 +63,6 @@ const ProjectDetails = () => {
         </Link>
       </section>
       <ContactForm></ContactForm>
-      <Footer></Footer>
     </section>
   );
 };

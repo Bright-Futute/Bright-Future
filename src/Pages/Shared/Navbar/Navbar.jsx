@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars} from "react-icons/fa";
 import { NavHashLink as Link } from "react-router-hash-link";
 import Logo from "./bright.png";
 const Navbar = () => {
@@ -26,7 +26,7 @@ const Navbar = () => {
           delay={1000}
           isDynamic={true}
           to="/about"
-          className="nav-list uppercase "
+          className="nav-list uppercase"
         >
           About us
         </Link>
