@@ -7,6 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import Tailwind from "./Technology/Images/tailwindcss-icon.svg";
 import Bootstrap from "./Technology/Images/Bootstrap-New.svg";
 import JavaScript from "./Technology/Images/logo-javascript.svg";
+import MaterialUI from "./Technology/Images/material-ui-1.svg";
 import TypeScript from "./Technology/Images/typescriptlang-icon.svg";
 import ReactJs from "./Technology/Images/reactjs-icon.svg";
 import Redux from "./Technology/Images/redux.svg";
@@ -20,6 +21,8 @@ import SQL from "./Technology/Images/spl.png";
 import SSL from "./Technology/Images/ssl-e-commerz.png";
 import Stripe from "./Technology/Images/stripe-ar21.svg";
 import Figma from "./Technology/Images/figma-icon.svg";
+import ReactNative from "./Technology/Images/react-native-1.svg";
+import Flutter from "./Technology/Images/flutter-logo.svg";
 
 const TimeLine = () => {
   return (
@@ -31,7 +34,7 @@ const TimeLine = () => {
         >
           <div className="">
             <h1 className="text-xl font-bold py-2">Front-End Development</h1>
-            <div className="grid grid-cols-6 gap-5">
+            <div className="grid grid-cols-7 gap-5">
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
                 <img className="" src={Tailwind} title="Tailwind CSS" alt="" />
               </div>
@@ -54,6 +57,9 @@ const TimeLine = () => {
               </div>
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
                 <img className="" src={Redux} title="Redux" alt="" />
+              </div>
+              <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
+                <img className="" src={MaterialUI} title="Material UI" alt="" />
               </div>
             </div>
           </div>
@@ -94,10 +100,26 @@ const TimeLine = () => {
                 <img className="" src={FireBase} title="Firebase" alt="" />
               </div>
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
-                <img className="" src={Xd} title="Netlify" alt="" />
+                <img className="" src={Xd} title="Abode XD" alt="" />
               </div>
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
-                <img className="" src={Figma} title="VS Code" alt="" />
+                <img className="" src={Figma} title="Figma" alt="" />
+              </div>
+            </div>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: "#3B80B8", color: "#fff" }}
+        >
+          <div>
+            <h1 className="text-xl font-bold py-2">App Development</h1>
+            <div className="grid grid-cols-5 gap-2">
+              <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
+                <img className="" src={ReactNative} title="React Native" alt="" />
+              </div>
+              <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
+                <img className="" src={Flutter} title="Flutter" alt="" />
               </div>
             </div>
           </div>

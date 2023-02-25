@@ -95,7 +95,7 @@ const Hero = () => {
                   >
                     <button
                       className="text-gray-100
-                      my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl"
+                      my-4 bg-[#fe9105] hover:bg-[#3B80B8] hover:duration-700 px-3 py-3 font-semibold rounded text-xl"
                     >
                       Let's Work Together
                     </button>
@@ -142,7 +142,7 @@ const Hero = () => {
                   >
                     <button
                       className="text-gray-100
-                     my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl "
+                     my-4 bg-[#fe9105] hover:bg-[#3B80B8] hover:duration-700 px-3 py-3 font-semibold rounded text-xl "
                     >
                       Let's Work Together
                     </button>
@@ -189,7 +189,7 @@ const Hero = () => {
                   >
                     <button
                       className="text-gray-100
-                      my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl"
+                      my-4 bg-[#fe9105] hover:bg-[#3B80B8] hover:duration-700 px-3 py-3 font-semibold rounded text-xl"
                     >
                       Let's Work Together
                     </button>
@@ -236,7 +236,7 @@ const Hero = () => {
                   >
                     <button
                       className="text-gray-100
-                      my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl"
+                      my-4 bg-[#fe9105] hover:bg-[#3B80B8] hover:duration-700 px-3 py-3 font-semibold rounded text-xl"
                     >
                       Let's Work Together
                     </button>

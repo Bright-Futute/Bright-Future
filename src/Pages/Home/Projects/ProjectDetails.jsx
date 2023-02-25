@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
-import Navbar from "../../Shared/Navbar/Navbar";
-import Footer from "../../Shared/Footer/Footer";
 import ContactForm from "../../ContactForm/ContactForm";
 
 const ProjectDetails = () => {
