@@ -1,35 +1,73 @@
 import React from "react";
+import ContactForm from "../ContactForm/ContactForm";
 import Image from "./HeroSectionOfBrightFuture.jpg";
 const About = () => {
   return (
-    <section
-      id="about"
-      className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
-    >
-      <h2 className="text-center  text-[32px] lg:text-4xl mb-10 text-sty">
-        About
-        <span className="text-[#3B80B8] "> Bright-Future</span>
-      </h2>
-
-      <div className="flex flex-col lg:flex-row gap-y-10 lg:gap-x-5 justify-between items-center">
-        <div className="w-[40%]">
-          <img className="rounded-lg drop-shadow-lg" src={Image} alt="" />
+    <section>
+      <section className="bg-white text-black">
+        <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-black">
+              Bright Future
+            </h2>
+            <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-800">
+              Bright Future For Your Bright Solution
+            </p>
+          </div>
+          <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+            <div>
+              <p>
+                Bright Future is a startup software company that specializes in
+                creating web apps, Android apps, and UI/UX designs. We were
+                founded in January 2023 in Dhaka, Bangladesh by a team of IT
+                specialists who wanted to create a company that would not only
+                be successful in business but also contribute to the
+                transformation of society through software development. Our
+                mission is to provide enterprise solutions to both local and
+                international organizations, with a strong focus on software
+                security and development for business automation. We work
+                closely with our customers to ensure that we are meeting their
+                needs and constantly improving our service performance.
+              </p>
+            </div>
+            <div aria-hidden="true" className="mt-10 lg:mt-0">
+              <img
+                src={Image}
+                alt=""
+                className="mx-auto rounded-lg shadow-lg bg-gray-500"
+              />
+            </div>
+          </div>
+          <div>
+            <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+              <div>
+                <p>
+                  At Bright Future, we pride ourselves on the quality of our
+                  solutions and services. We offer a range of services including
+                  web-based application development, software and Android app
+                  development, and internet marketing strategy development. We
+                  also specialize in web application design, helping our clients
+                  to create beautiful, functional, and user-friendly interfaces
+                  for their customers. Our team of experienced developers and
+                  designers is committed to creating innovative solutions that
+                  meet the needs of our customers. We are dedicated to
+                  maintaining long-term relationships with our clients and
+                  providing them with the support they need to succeed in
+                  today's digital era.
+                </p>
+              </div>
+              <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
+                <img
+                  src={Image}
+                  alt=""
+                  className="mx-auto rounded-lg shadow-lg bg-gray-500"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div className=" lg:w-2/4">
-          <h1 className="text-2xl  font-bold py-5">
-            Bright Future For Your Bright Solution
-          </h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            aliquid eius ad omnis animi sit quae repudiandae tenetur debitis,
-            facere voluptatum amet veritatis minus natus dicta tempore rem?
-            Fugiat atque eveniet a, distinctio vel, quas repellendus ab ratione
-            beatae porro libero, odio modi neque unde debitis laudantium ullam.
-            Veniam id numquam labore obcaecati consectetur molestiae beatae
-            tempora eligendi voluptates accusamus.
-          </p>
-        </div>
-      </div>
+      </section>
+      <ContactForm></ContactForm>
     </section>
   );
 };

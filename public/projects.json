@@ -5,7 +5,7 @@
         "feature": " Each one will work with a different type of data, the user cannot use the seller's or seller admin's data. No one can place any order without login in.  Admin can make any seller an admin if he wants and Add a payment system.",
         "tech": ["HTML", "TailwindCSS","JavaScript","ReactJS","NodeJS","ExpressJs","MongoDB","Firebase","Stripe"],
         "img": "./projectAssets/bookHouse.png",
-        "detailsImg1": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/book-house.png"
+        "detailsImg": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/book-house.png"
     },
     {
         "_id": 102,
@@ -13,7 +13,7 @@
         "feature": "Here a user can come and order the product. But for that he must have a register and login user. Whatever the user buys will be stored in his local storage. Pagination is used here. Through which product sorting can be done user",
         "tech": ["HTML", "TailwindCSS","JavaScript","ReactJS"],
         "img": "./projectAssets/emaJhon.png",
-        "detailsImg1": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/ema-jhon.png"
+       "detailsImg": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/ema-jhon.png"  
     }
     ,
     {
@@ -22,7 +22,7 @@
         "feature": "All site data is taken from MongoDB & Added Photo ReactAnyone with a login can provide some boy information data. Added authorization system to site. Added Photo React. Data sorting has been done so that the data does not become random.",
         "tech": ["HTML", "TailwindCSS","JavaScript","ReactJS","NodeJS","ExpressJs","MongoDB","Firebase","Stripe"],
         "img": "./projectAssets/doctors-portal.png",
-        "detailsImg1": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/doctors-portal.png"
+       "detailsImg": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/doctors-portal.png"  
     },
     {
         "_id": 104,
@@ -30,7 +30,7 @@
         "feature": "Publish Jobs for Candidates, Details of every Job.",
         "tech": ["HTML", "TailwindCSS","JavaScript","ReactJS","React Router","DaisyUI"],
         "img": "./projectAssets/job-portal.png",
-        "detailsImg1": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/job-portal.png"
+       "detailsImg": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/job-portal.png"  
     }
     ,
     {
@@ -39,7 +39,7 @@
         "feature": "All site data is taken from MongoDB & Added Photo ReactAnyone with a login can provide some boy information data. Added authorization system to site. Added Photo React. Data sorting has been done so that the data does not become random.",
         "tech": ["HTML", "TailwindCSS","JavaScript","ReactJS","NodeJS","ExpressJs","MongoDB","Firebase"],
         "img": "./projectAssets/edgarAlen.png",
-        "detailsImg1": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/edger-allan.png"
+       "detailsImg": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/edger-allan.png"  
     }
     ,{
         "_id": 106,
@@ -47,7 +47,7 @@
         "feature": " This is a quality learning platform web application. Learners can get their needed courses on this platform. Anyone can sign up for their profile and they can visit the course outline. After login into this application, they can buy their needed course easily.",
         "tech": [ "TailwindCSS","JavaScript","ReactJS","NodeJS","ExpressJs","MongoDB","Firebase-Auth","Firebase-Hosting","Custom Make API"],
         "img": "./projectAssets/programmer-lab.png",
-        "detailsImg1": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/programmer-lab.png"
+       "detailsImg": "https://raw.githubusercontent.com/Bright-Futute/MamunAssets/main/MokeupImage/programmer-lab.png"  
     }
     
     
