@@ -6,7 +6,7 @@ const About = () => {
       id="about"
       className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
-      <h2 className="text-center text-[20px] lg:text-4xl mb-10 text-sty">
+      <h2 className="text-center  text-[32px] lg:text-4xl mb-10 text-sty">
         About
         <span className="text-[#3B80B8] "> Bright-Future</span>
       </h2>

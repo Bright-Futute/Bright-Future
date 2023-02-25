@@ -3,7 +3,6 @@ import ContactForm from "../ContactForm/ContactForm";
 import Technology from "../Technology/Technology";
 import Hero from "./Hero/Hero";
 import Services from "./Services/Services";
-import About from "../About/About";
 import OurOffer from "../OurOffer/OurOffer";
 import Employee from "../About/Employee/Employee";
 import Projects from "./Projects/Projects";

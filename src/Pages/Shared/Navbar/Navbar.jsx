@@ -1,12 +1,8 @@
 import React from "react";
-import { FaBars, FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaBars} from "react-icons/fa";
 import { NavHashLink as Link } from "react-router-hash-link";
 import Logo from "./bright.png";
 const Navbar = () => {
-  let activeStyle = {
-    color: "#f9c301",
-  };
-
   const menuList = (
     <>
       {/* <li>
@@ -196,9 +192,9 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-          <div>
-            <Link to="/#top" className="text-xl text-[#FF3F4A] font-bold">
-              <img className="w-[140px] h-auto" src={Logo} alt="" />
+          <div className="">
+            <Link to="/#top">
+              <img className="w-[130px] h-auto" src={Logo} alt="" />
             </Link>
           </div>
         </div>

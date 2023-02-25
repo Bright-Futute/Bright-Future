@@ -1,18 +1,16 @@
 import React from "react";
+import Lottie from "lottie-react";
+import ourMission from "./Misn.json";
 
 const Mission = () => {
   return (
-    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-      <div className="flex justify-between items-center">
-        <div>
-          <img
-            src="https://aide.com.bd/assets/our_mission-59f5fb35.png"
-            alt=""
-            className="w-9/12"
-          />
+    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 w-10/12">
+      <div className="lg:grid md:grid grid-cols-3 gap-16 justify-around items-center">
+        <div className="">
+          <Lottie className="" animationData={ourMission} loop={true} />
         </div>
-        <div className="w-1/2">
-          <h2 className="text-sty text-[20px] lg:text-4xl font-[700] mb-10 drop-shadow-md">
+        <div className="col-span-2">
+          <h2 className="text-sty  text-[32px] lg:text-4xl font-[700] mb-10 drop-shadow-md">
             <span className="text-[#3B80B8] drop-shadow-md">Our</span> Mission
           </h2>
           <p>

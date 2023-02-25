@@ -42,7 +42,7 @@ const ContactForm = () => {
       <Typography
         gutterBottom
         variant="h2"
-        className="text-center text-[20px] lg:text-4xl mb-10 drop-shadow-md text-sty"
+        className="text-center  text-[32px] lg:text-4xl mb-10 drop-shadow-md text-sty"
         style={{ fontWeight: "900", fontSize: "36px" }}
       >
         Want to talk about your project?
@@ -57,7 +57,7 @@ const ContactForm = () => {
         </Grid>
         <Grid sm={12} md={6} item fullWidth>
           <Card
-          className="contact-card"
+            className="contact-card"
             style={{ maxWidth: 500, margin: "0 auto", padding: "20px 5px" }}
           >
             <CardContent>

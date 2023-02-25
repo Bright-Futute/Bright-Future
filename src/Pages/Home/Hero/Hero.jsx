@@ -42,6 +42,8 @@ const Hero = () => {
         <svg
           className="absolute inset-x-0 bottom-0 text-white"
           viewBox="0 0 1160 163"
+          npm
+          st
         >
           <path
             fill="white"
@@ -53,7 +55,7 @@ const Hero = () => {
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-              delay: 3000,
+              delay: 5000,
               disableOnInteraction: false,
             }}
             modules={[Autoplay]}
@@ -72,12 +74,12 @@ const Hero = () => {
                   </h1>
                   <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                     <Typical
-                      className="text-left text-2xl text-[#f8d400]"
+                      className="lg:text-left md:text-left text-center text-left text-2xl text-[#f8d400]"
                       loop={Infinity}
                       wrapper="b"
                       steps={[
                         "Client Management",
-                        2000,
+                        1000,
                         "Develop and Designing",
                         2000,
                         "Web Application Based Interface",
@@ -91,13 +93,63 @@ const Hero = () => {
                     delay={1000}
                     to="/#contact"
                   >
-                    <button className=" my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl  font-mono">
+                    <button
+                      className="text-gray-100
+                      my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl"
+                    >
                       Let's Work Together
                     </button>
                   </Link>
                 </aside>
                 <Lottie
-                  className="lg:w-[420px] lg:h-[420px]"
+                  className="lg:w-[420px] lg:h-[420px] md:w-[400px] md:h-[400px] w-[300px] h-[300px]"
+                  animationData={Image}
+                  loop={true}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex flex-col md:flex-row lg:flex-row justify-around items-center align-middle">
+                <aside className="text-black">
+                  <h1 className=" text-[30px]  text-white font-[Kanit] lg:text-5xl font-[800] text-center lg:text-start  leading-8">
+                    We Are Professional <br />
+                    <span className="text-[#3B80B8] text-sty">
+                      Design & Development
+                    </span>
+                    <br />
+                    Service Provider
+                  </h1>
+                  <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
+                    <Typical
+                      className="lg:text-left md:text-left text-center text-2xl text-[#f8d400]"
+                      loop={Infinity}
+                      wrapper="b"
+                      steps={[
+                        "Client Management",
+                        1000,
+                        "Develop and Designing",
+                        2000,
+                        "Web Application Based Interface",
+                        2000,
+                      ]}
+                    ></Typical>
+                  </ul>
+                  <Link
+                    smooth={true}
+                    duration={1000}
+                    delay={1000}
+                    to="/#contact"
+                  >
+                    <button
+                      className="text-gray-100
+                     my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl "
+                    >
+                      Let's Work Together
+                    </button>
+                  </Link>
+                </aside>
+                <Lottie
+                  className="lg:w-[420px] lg:h-[420px] md:w-[400px] md:h-[400px] w-[300px] h-[300px]"
                   animationData={Image}
                   loop={true}
                 />
@@ -116,12 +168,12 @@ const Hero = () => {
                   </h1>
                   <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                     <Typical
-                      className="text-left text-2xl text-[#f8d400]"
+                      className="lg:text-left md:text-left text-center text-left text-2xl text-[#f8d400]"
                       loop={Infinity}
                       wrapper="b"
                       steps={[
                         "Client Management",
-                        2000,
+                        1000,
                         "Develop and Designing",
                         2000,
                         "Web Application Based Interface",
@@ -135,13 +187,16 @@ const Hero = () => {
                     delay={1000}
                     to="/#contact"
                   >
-                    <button className=" my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl  font-mono">
+                    <button
+                      className="text-gray-100
+                      my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl"
+                    >
                       Let's Work Together
                     </button>
                   </Link>
                 </aside>
                 <Lottie
-                  className="lg:w-[420px] lg:h-[420px]"
+                  className="lg:w-[420px] lg:h-[420px] md:w-[400px] md:h-[400px] w-[300px] h-[300px]"
                   animationData={Image}
                   loop={true}
                 />
@@ -160,12 +215,12 @@ const Hero = () => {
                   </h1>
                   <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
                     <Typical
-                      className="text-left text-2xl text-[#f8d400]"
+                      className="lg:text-left md:text-left text-center text-left text-2xl text-[#f8d400]"
                       loop={Infinity}
                       wrapper="b"
                       steps={[
                         "Client Management",
-                        2000,
+                        1000,
                         "Develop and Designing",
                         2000,
                         "Web Application Based Interface",
@@ -179,68 +234,23 @@ const Hero = () => {
                     delay={1000}
                     to="/#contact"
                   >
-                    <button className=" my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl  font-mono">
+                    <button
+                      className="text-gray-100
+                      my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl"
+                    >
                       Let's Work Together
                     </button>
                   </Link>
                 </aside>
                 <Lottie
-                  className="lg:w-[420px] lg:h-[420px]"
-                  animationData={Image}
-                  loop={true}
-                />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="lg:flex justify-around items-center ">
-                <aside className="text-black">
-                  <h1 className=" text-[30px]  text-white font-[Kanit] lg:text-5xl font-[800] text-center lg:text-start  leading-8">
-                    We Are Professional <br />
-                    <span className="text-[#3B80B8] text-sty">
-                      Design & Development
-                    </span>
-                    <br />
-                    Service Provider
-                  </h1>
-                  <ul className="mt-3 text-[24px] flex flex-col gap-[10px] font-[500] ">
-                    <Typical
-                      className="text-left text-2xl text-[#f8d400]"
-                      loop={Infinity}
-                      wrapper="b"
-                      steps={[
-                        "Client Management",
-                        2000,
-                        "Develop and Designing",
-                        2000,
-                        "Web Application Based Interface",
-                        2000,
-                      ]}
-                    ></Typical>
-                  </ul>
-                  <Link
-                    smooth={true}
-                    duration={1000}
-                    delay={1000}
-                    to="/#contact"
-                  >
-                    <button className=" my-4 bg-[#fe9105] hover:bg-[#f9c301] px-3 py-3 font-semibold rounded text-xl  font-mono">
-                      Let's Work Together
-                    </button>
-                  </Link>
-                </aside>
-                <Lottie
-                  className="lg:w-[420px] lg:h-[420px]"
+                  className="lg:w-[420px] lg:h-[420px] md:w-[400px] md:h-[400px] w-[300px] h-[300px]"
                   animationData={Image}
                   loop={true}
                 />
               </div>
             </SwiperSlide>
           </Swiper>
-          <button
-            className={`scroll-down-btn ${
-              isVisible ? "" : "show"
-            }`}
-          >
+          <button className={`scroll-down-btn ${isVisible ? "" : "show"}`}>
             <FaArrowDown className="fill-[#fe9205c8]" />
           </button>
         </div>
