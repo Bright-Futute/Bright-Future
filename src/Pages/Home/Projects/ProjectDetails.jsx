@@ -10,7 +10,7 @@ const ProjectDetails = () => {
       .then((response) => response.json())
       .then((data) => setItem(data.find((item) => item._id === parseInt(id))));
   }, [id]);
-
+  console.log(item);
   if (!item) {
     return (
       <div className="text-medium text-center py-24 font-mono text-2xl text-[#FCA503]">

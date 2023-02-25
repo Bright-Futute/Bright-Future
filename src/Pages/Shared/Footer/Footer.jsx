@@ -10,7 +10,7 @@ import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCu
 
 const Footer = () => {
   return (
-    <section className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl p-8">
+    <section className=" mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl p-8 pt-0">
       <div className=" bg-[#001E00] rounded-xl px-14 py-8">
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-2">
@@ -205,7 +205,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-between pt-5 border-t border-purple-200 sm:flex-row">
           <p className="text-sm text-gray-100">
-            © Copyright 2020 Lorem Inc. All rights reserved.
+            © Copyright 2022 Bright Future. All rights reserved.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
@@ -237,19 +237,19 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="fixed right-3 bottom-1/2 translate-y-1/2 space-y-4">
+      <div className="fixed right-0 bottom-1/2 translate-y-1/2 space-y-4">
         <a href="#" target="_blank">
-          <FaLinkedin className="w-6 h-6 my-2 fill-[#0072b1] hover:fill-[#fe9105]" />
+          <FaLinkedin className="w-8 h-8 hover:w-7 hover:h-7 my-2 fill-[#0072b1]" />
         </a>
         <a href="#" target="_blank">
-          <FaFacebookSquare className="w-6 h-6 my-2 fill-[#3b5998] hover:fill-[#fe9105]" />
+          <FaFacebookSquare className="w-8 h-8 hover:w-7 hover:h-7 my-2 fill-[#3b5998]" />
         </a>
         <a href="#" target="_blank">
-          <FaTwitterSquare className="w-6 h-6 my-2 fill-[#00acee] hover:fill-[#fe9105]" />
+          <FaTwitterSquare className="w-8 h-8 hover:w-7 hover:h-7 my-2 fill-[#00acee]" />
         </a>
         <a href="#" target="_blank">
           {" "}
-          <FaInstagramSquare className="w-6 h-6 my-2 fill-[#bc2a8d] hover:fill-[#fe9105]" />
+          <FaInstagramSquare className="w-8 h-8 hover:w-7 hover:h-7 my-2 fill-[#bc2a8d]" />
         </a>
       </div>
       <div>

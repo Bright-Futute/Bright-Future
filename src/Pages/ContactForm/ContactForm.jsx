@@ -1,4 +1,7 @@
 import React, { useRef } from "react";
+import Lottie from "lottie-react";
+import Contact from "./contact.json";
+
 import {
   Button,
   Card,
@@ -7,7 +10,6 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import image from "./image.gif";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
@@ -15,7 +17,6 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "thebrightfuture",
@@ -34,37 +35,29 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="pt-20">
+    <section
+      id="contact"
+      className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+    >
       <Typography
         gutterBottom
-        variant="h5"
-        className="text-center"
-        style={{ fontWeight: "700", fontFamily: "monospace", fontSize: "52px" }}
+        variant="h2"
+        className="text-center  text-[32px] lg:text-4xl mb-10 drop-shadow-md text-sty"
+        style={{ fontWeight: "900", fontSize: "36px" }}
       >
         Want to talk about your project?
       </Typography>
-      <Typography
-        gutterBottom
-        color="textPrimary"
-        variant="body"
-        component="p"
-        style={{
-          color: "#3B80B8",
-          textAlign: "center",
-          fontFamily: "monospace",
-          fontSize: "20px",
-        }}
+      <Grid
+        container
+        spacing={0}
+        className="flex justify-between items-center "
       >
-        Fill up the form and our team will get back to you within 24 hours.
-      </Typography>
-      <Grid container spacing={0} className="flex justify-center items-center ">
         <Grid sm={12} md={6} item>
-          <div className="m-auto">
-            <img src={image} alt="" className="w-full" />
-          </div>
+          <Lottie className="w-10/12" animationData={Contact} loop={true} />
         </Grid>
         <Grid sm={12} md={6} item fullWidth>
           <Card
+            className="contact-card"
             style={{ maxWidth: 500, margin: "0 auto", padding: "20px 5px" }}
           >
             <CardContent>

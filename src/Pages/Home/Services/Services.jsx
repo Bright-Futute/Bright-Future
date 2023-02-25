@@ -10,92 +10,92 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+      className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
-      <h2 className="text-4xl text-gray-700 font-bold font-mono text-center pb-5 drop-shadow-md">
+      <h2 className="text-sty  text-[32px] lg:text-4xl font-[700]  text-center mb-10 drop-shadow-md">
         <span className="text-[#3B80B8] drop-shadow-md">Services</span> We
         Provide
       </h2>
-      <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ">
+      <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         <div className="bg-white drop-shadow-sm flex flex-col justify-between hover:border-2 hover:border-[#f8d30067]">
-          <div className="shadow-sm bg-[#f8d300f2] rounded-b-full">
+          <div className="shadow-sm bg-[#fe9105] rounded-r-full">
             <Lottie
-              className="lg:w-[250px] lg:h-[25`0px] mx-auto"
+              className="w-full h-[250px] mx-auto"
               animationData={UiUx}
               loop={true}
             />
           </div>
           <div className=" pt-2 pb-0">
-            <h1 className="text-2xl px-5 text-center font-bold mb-3 font-mono underline text-[#3B80B8]">
-              Ui/UX Design
-            </h1>
+            <h4 className="text-xl mt-4 px-5 text-center font-bold mb-3 text-[#3B80B8]">
+              Ui/Ux Design
+            </h4>
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <button className="mt-5 w-full bg-[#f8d300f2] py-2 text-black rounded-b-sm font-bold font-mono">
+            <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold">
               Get Start With Us
             </button>
           </div>
         </div>
 
         <div className="bg-white drop-shadow-sm flex flex-col rounded-xl hover:border-2 hover:border-[#f8d30067]">
-          <div className="drop-shadow-lg bg-[#f8d300f2] rounded-r-full">
+          <div className="drop-shadow-lg bg-[#fe9105] rounded-l-full">
             <Lottie
-              className="lg:w-[250px] lg:h-[25`0px] mx-auto"
+              className="w-full h-[250px] mx-auto"
               animationData={AppDev}
               loop={true}
             />
           </div>
           <div className="bg-[] pt-2 pb-0">
-            <h1 className="text-2xl px-5 text-center font-bold mb-3 font-mono underline text-[#3B80B8]">
+            <h4 className="text-xl mt-4 px-5 text-center font-bold mb-3 text-[#3B80B8]">
               App Development
-            </h1>
+            </h4>
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <button className="mt-5 w-full bg-[#f8d300f2] py-2 text-black rounded-b-sm font-bold font-mono">
+            <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold">
               Get Start With Us
             </button>
           </div>
         </div>
 
         <div className="bg-white drop-shadow-sm flex flex-col rounded-xl hover:border-2 hover:border-[#f8d30067]">
-          <div className="drop-shadow-lg bg-[#f8d300f2] rounded-bl-full">
+          <div className="drop-shadow-lg bg-[#fe9105] rounded-r-full">
             <Lottie
-              className="lg:w-[250px] lg:h-[25`0px] mx-auto"
+              className="w-full h-[250px] mx-auto"
               animationData={FullStack}
               loop={true}
             />
           </div>
           <div className="bg-[] pt-2 pb-0">
-            <h1 className="text-2xl px-5 text-center font-bold mb-3 font-mono underline text-[#3B80B8]">
+            <h4 className="text-xl mt-4 px-5 text-center font-bold mb-3 text-[#3B80B8]">
               Full Stack
-            </h1>
+            </h4>
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <button className="mt-5 w-full bg-[#f8d300f2] py-2 text-black rounded-b-sm font-bold font-mono">
+            <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold">
               Get Start With Us
             </button>
           </div>
         </div>
 
         <div className="bg-white drop-shadow-sm flex flex-col rounded-xl hover:border-2 hover:border-[#f8d30067]">
-          <div className="drop-shadow-lg bg-[#f8d300f2] rounded-br-full">
+          <div className="drop-shadow-lg bg-[#fe9105] rounded-l-full">
             <Lottie
-              className="lg:w-[250px] lg:h-[25`0px] mx-auto"
+              className="w-full h-[250px] mx-auto"
               animationData={WebDev}
               loop={true}
             />
           </div>
           <div className="bg-[] pt-2 pb-0">
-            <h1 className="text-2xl px-5 text-center font-bold mb-3 font-mono underline text-[#3B80B8]">
+            <h4 className="text-xl mt-4 px-5 text-center font-bold mb-3 text-[#3B80B8]">
               Web Development
-            </h1>
+            </h4>
             <p className="px-5 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <button className="mt-5 w-full bg-[#f8d300f2] py-2 text-black rounded-b-sm font-bold font-mono">
+            <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold">
               Get Start With Us
             </button>
           </div>
