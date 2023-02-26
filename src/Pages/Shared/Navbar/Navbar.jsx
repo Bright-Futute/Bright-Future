@@ -26,7 +26,7 @@ const Navbar = () => {
           delay={1000}
           isDynamic={true}
           to="/about"
-          className="nav-list uppercase "
+          className="nav-list uppercase"
         >
           About us
         </Link>
@@ -207,15 +207,16 @@ const Navbar = () => {
             duration={1000}
             delay={1000}
             to="/#contact"
-            className="transition duration-500 transform px-6 py-3 rounded-full inline hover:bg-[#3B80B8]
-            bg-[#fe9105]
-            text-white
-            text-lg
-            shadow-sm
-            hover:shadow-xl
-            hover:scale-125 italic"
+            className="
+            py-4 px-5
+            text-xl
+            rounded-md
+            hover:duration-700
+            hover:bg-[#3B80B8]
+            bg-[#fe9105] 
+            text-white"
           >
-            contact us
+            Contact us
           </Link>
         </div>
       </div>

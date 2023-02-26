@@ -17,10 +17,13 @@ const Home = () => {
       <div className=" mb-20" id="top">
         <Hero></Hero>
       </div>
-      {/* <div id="about">
+      <div className="mb-20" id="waterfallmodel">
+        <WaterFallModel />
+      </div>
+      {/* <div className="mb-20">
         <About></About>
       </div> */}
-      <div id="service">
+      <div className="mb-20 bg-[#f7f7f7] py-10" id="service">
         <Services></Services>
       </div>
       <div className="mb-20" id="technology">
