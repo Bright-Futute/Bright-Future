@@ -10,7 +10,7 @@ const Vision = () => {
           <h2 className="text-sty  text-[32px] lg:text-4xl font-[700] mb-10 drop-shadow-md">
             <span className="text-[#3B80B8] drop-shadow-md">Our</span> Vision
           </h2>
-          <p>
+          <p className="text-justify">
             Statistics Show That 20% Of New Businesses Fail In Their First Year,
             30% Within The Second Year And 50% Of Businesses Fail Within Five
             Years. Finally, About 70% Of Business Owners Fail In The Tenth Year
@@ -21,7 +21,7 @@ const Vision = () => {
             Failure Is Much More Common Than We See And Think. Losing Happens To
             Everyone And Getting Down About It Is Not Going To Accomplish
             Anything Productive. Instead, Forward-Thinking Will Enable You To
-            Get Past The Problem And Work Toward A Brighter Future. L
+            Get Past The Problem And Work Toward A Brighter Future.
           </p>
         </div>
         <div>
