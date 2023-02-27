@@ -7,16 +7,16 @@ const About = () => {
       <section className="bg-white text-black">
         <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-black">
+            <h2 className="text-sty text-[32px] lg:text-4xl font-[700] drop-shadow-md text-center text-[#3B80B8]">
               Bright Future
             </h2>
             <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-800">
-              Bright Future For Your Bright Solution
+              Bright future for your bright solution
             </p>
           </div>
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
-              <p>
+              <p className="text-justify">
                 Bright Future is a startup software company that specializes in
                 creating web apps, Android apps, and UI/UX designs. We were
                 founded in January 2023 in Dhaka, Bangladesh by a team of IT
@@ -41,7 +41,7 @@ const About = () => {
           <div>
             <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
               <div>
-                <p>
+                <p className="text-justify">
                   At Bright Future, we pride ourselves on the quality of our
                   solutions and services. We offer a range of services including
                   web-based application development, software and Android app

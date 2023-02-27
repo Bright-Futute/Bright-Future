@@ -7,7 +7,6 @@
 }
 
 .App {
-  
 }
 
 .App-logo {
@@ -69,6 +68,9 @@
   width: 100%;
 }
 
+.navHover:hover {
+  background: none;
+}
 .text-modeChange {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -109,4 +111,8 @@
 .scroll-down-btn.show {
   opacity: 1;
   pointer-events: auto;
+}
+
+.mgnProb{
+  margin-top: 25px !important;
 }

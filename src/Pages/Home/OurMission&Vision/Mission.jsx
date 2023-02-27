@@ -13,7 +13,7 @@ const Mission = () => {
           <h2 className="text-sty  text-[32px] lg:text-4xl font-[700] mb-10 drop-shadow-md">
             <span className="text-[#3B80B8] drop-shadow-md">Our</span> Mission
           </h2>
-          <p>
+          <p className="text-justify">
             BRIGHT FUTURE Is A Bank Of Solution For The Root Level Retail Stores
             And An End To End Next-Generation Business Market Place Where Our
             Vision Is To Organize The Unorganized Retail Industry. The Purpose
