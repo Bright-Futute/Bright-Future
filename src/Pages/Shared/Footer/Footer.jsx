@@ -10,7 +10,7 @@ import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCu
 
 const Footer = () => {
   return (
-    <section className=" mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl p-8 pt-0">
+    <section className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pt-0">
       <div className=" bg-[#001E00] rounded-xl px-14 py-8">
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-2">

@@ -17,12 +17,12 @@ const WaterFallModel = () => {
     {
       title: "Design",
       description:
-        "Design the system architecture and define the system components.",
+        "The requirement specifications from first phase are studied in this phase and the system design is prepared. This system design helps in specifying hardware and system requirements and helps in defining the overall system architecture.",
       icon: "./waterfallImg/design.png",
     },
     {
       title: "Coding",
-      description: "Implement the system components according to the design.",
+      description: "With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. Each unit is developed and tested for its functionality, which is referred to as Unit Testing",
       icon: "./waterfallImg/coding.png",
     },
     {
@@ -58,7 +58,7 @@ const WaterFallModel = () => {
                 alt=""
                 className={`w-16 h-16 cursor-pointer ${
                   currentStep === index + 1
-                    ? "w-20 h-20 bg-[#F7F7F7] p-3 rounded-md drop-shadow-md"
+                    ? "w-10 h-10 bg-[#F7F7F7] p-3 rounded-md drop-shadow-md"
                     : "text-gray-600 "
                 }`}
                 onClick={() => handleClick(index + 1)}
@@ -77,7 +77,7 @@ const WaterFallModel = () => {
         ))}
       </div>
       <div className="w-96 chat chat-start">
-        <div className="chat-bubble bg-[#001E00] p-5 font-mono">
+        <div className="chat-bubble bg-[#001E00] p-5">
           <p className="text-xl font-bold mb-2">
             {steps[currentStep - 1].title}
           </p>
