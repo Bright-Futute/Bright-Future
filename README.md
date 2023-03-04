@@ -25,15 +25,6 @@ Step-by-step instructions for how to install and run the project, including any 
 
 - React JS
 
-### Installation
-
-1. Clone the repository:
-
-```git
-git clone https://github.com/Bright-Futute/Bright-Future.git
-
-cd your-repository
-
 
 ## Usage
 
@@ -52,3 +43,15 @@ List of the project's authors or contributors, including contact information if 
 Mahadi Hasan (jinfo@thebrightfuture.co)
 Mushfiqur Rahman (musfiqur@thebrightfuture.co)
 Abdullah Al Mamun (mamun@thebrightfuture.co)
+
+
+### Installation
+
+1. Clone the repository:
+
+```git
+git clone https://github.com/Bright-Futute/Bright-Future.git
+
+cd your-repository
+
+
