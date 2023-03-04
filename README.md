@@ -40,9 +40,9 @@ Guidelines for how to contribute to the project, including instructions for subm
 
 List of the project's authors or contributors, including contact information if desired.
 
-Mahadi Hasan (jinfo@thebrightfuture.co)
-Mushfiqur Rahman (musfiqur@thebrightfuture.co)
-Abdullah Al Mamun (mamun@thebrightfuture.co)
+- Mahadi Hasan (jinfo@thebrightfuture.co)
+- Mushfiqur Rahman (musfiqur@thebrightfuture.co)
+- Abdullah Al Mamun (mamun@thebrightfuture.co)
 
 
 ### Installation
