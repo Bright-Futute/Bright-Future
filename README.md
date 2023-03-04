@@ -64,4 +64,4 @@ License information for the project, including how others can use and modify you
 
 ```git
 git clone https://github.com/Bright-Futute/Bright-Future.git
-cd your-repository
+cd your-Bright-Future
