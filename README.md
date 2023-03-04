@@ -45,6 +45,13 @@ List of the project's authors or contributors, including contact information if 
 - Abdullah Al Mamun (mamun@thebrightfuture.co)
 
 
+
+## Acknowledgements
+
+If you would like to acknowledge any individuals or organizations that contributed to the project, you can include them here.
+
+
+
 ## License
 
 License information for the project, including how others can use and modify your code. If you're not sure which license to use, you can find guidance on GitHub's Choose a License page (https://www.thebrightfuture.co/).
