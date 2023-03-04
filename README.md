@@ -45,13 +45,16 @@ List of the project's authors or contributors, including contact information if 
 - Abdullah Al Mamun (mamun@thebrightfuture.co)
 
 
+## License
+
+License information for the project, including how others can use and modify your code. If you're not sure which license to use, you can find guidance on GitHub's Choose a License page (https://www.thebrightfuture.co/).
+
+
+
 ### Installation
 
 1. Clone the repository:
 
 ```git
 git clone https://github.com/Bright-Futute/Bright-Future.git
-
 cd your-repository
-
-
