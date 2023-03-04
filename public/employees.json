@@ -4,57 +4,58 @@
         "name": "Md Mahadi Hasan",
         "position": "CEO And Founder",
         "linkedin": "https://www.linkedin.com/in/codewithmahadihasan",
-        "img": "./assets/musfiq.jpg"
+        "img": "./assets/mahadi.jpg"
     },
     {
         "_id": 102,
-        "name": "Ashim Rudra Paul",
-        "position": "Senior Frontend Engineer",
-        "linkedin": "https://www.linkedin.com/in/codewithashim",
-        "img": "./assets/musfiq.jpg"
+        "name": "Regita Redhe",
+        "position": "Account Manager",
+        "linkedin": "https://www.linkedin.com/in/",
+        "img": "./assets/mahadi.jpg"
     },
     {
         "_id": 103,
-        "name": "Md Mahadi Hasan",
-        "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
-        "img": "./assets/musfiq.jpg"
+        "name": "Safikul Islam",
+        "position": "Project Manager",
+        "linkedin": "https://www.linkedin.com/in/safikulislamemon/",
+        "img": "./assets/sofikul.jpeg"
     },
     {
         "_id": 104,
-        "name": "Md Mahadi Hasan",
-        "position": "CEO And Founder",
+        "name": "Ashim Rudra Paul",
+        "position": "Senior MERN-Stack developer",
         "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
-        "img": "./assets/musfiq.jpg"
+        "img": "./assets/ashim.JPG"
     },
     {
         "_id": 105,
-        "name": "Md Mahadi Hasan",
-        "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
-        "img": "./assets/musfiq.jpg"
+        "name": "Obaidul Islam",
+        "position": "MERN-Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/web-developer-19110825a/",
+        "img": "./assets/Obaidul.png"
     },
     {
         "_id": 106,
-        "name": "Md Mahadi Hasan",
-        "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
-        "img": "./assets/musfiq.jpg"
+        "name": "Sarwar Hossain",
+        "position": "MERN-Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/sarwar-hossain-a29660257/",
+        "img": "./assets/Sarwar.png"
     },
     {
         "_id": 107,
-        "name": "Md Mahadi Hasan",
-        "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
-        "img": "./assets/musfiq.jpg"
+        "name": "Md Nahid Ferdaos",
+        "position": "Front End Developer",
+        "linkedin": "https://www.linkedin.com/in/nahid-ferdaos/",
+        "img": "./assets/Nahid.png"
     },
     {
         "_id": 108,
-        "name": "Md Mahadi Hasan",
-        "position": "CEO And Founder",
-        "linkedin": "https://www.linkedin.com/in/codewithmahadihasan/",
-        "img": "./assets/musfiq.jpg"
+        "name": "Md Abdullah Al Mamun",
+        "position": "Front End Developer",
+        "linkedin": "https://www.linkedin.com/in/mdmamunabdullah/",
+        "img": "./assets/abdullah.jpg"
     },
+    
     {
         "_id": 109,
         "name": "Md Musfiqur Rahman",

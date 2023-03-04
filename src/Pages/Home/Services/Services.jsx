@@ -30,7 +30,10 @@ const Services = () => {
               Ui/Ux Design
             </h4>
             <p className="px-5 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We offer UI/UX design services for software, websites, and
+              dashboards. Our designs are created using Figma, ensuring
+              high-quality and user-friendly interfaces. Let us help you enhance
+              your user experience and create a visually appealing product.
             </p>
             <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold">
               Get Start With Us
@@ -51,7 +54,12 @@ const Services = () => {
               App Development
             </h4>
             <p className="px-5 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We develop legal software for you! Our app development services
+              cover all your needs, ensuring a seamless experience for your
+              users. From ideation to launch, we've got you covered. Our team is
+              experienced in creating high-quality apps that are tailored to
+              your specific needs. Get started today and let us help bring your
+              ideas to life!
             </p>
             <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold">
               Get Start With Us
@@ -72,7 +80,11 @@ const Services = () => {
               Full Stack
             </h4>
             <p className="px-5 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Our full-stack development service provides end-to-end solutions
+              for your software needs. From planning to deployment, we handle it
+              all with our team of experts. Whether it's a web or mobile app, we
+              ensure smooth functionality and user experience. Leave the
+              technicalities to us and focus on growing your business.
             </p>
             <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold">
               Get Start With Us
@@ -93,7 +105,11 @@ const Services = () => {
               Web Development
             </h4>
             <p className="px-5 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We offer comprehensive web development services tailored to your
+              needs, from simple static pages to complex dynamic websites. Our
+              experienced team uses the latest technologies and tools to deliver
+              high-quality results on time and within budget. Contact us today
+              to bring your online presence to life
             </p>
             <button className="mt-5 w-full bg-[#fe9105] py-2 text-white rounded-b-sm font-bold">
               Get Start With Us

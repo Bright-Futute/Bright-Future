@@ -22,7 +22,8 @@ const WaterFallModel = () => {
     },
     {
       title: "Coding",
-      description: "With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. Each unit is developed and tested for its functionality, which is referred to as Unit Testing",
+      description:
+        "With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. Each unit is developed and tested for its functionality, which is referred to as Unit Testing",
       icon: "./waterfallImg/coding.png",
     },
     {
@@ -48,43 +49,49 @@ const WaterFallModel = () => {
   };
 
   return (
-    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 flex flex-col lg:flex-row justify-around items-center">
-      <div className="grid grid-cols-3 gap-20 lg:gap-10 mb-5 lg:mb-0">
-        {steps.map((step, index) => (
-          <div key={index}>
-            <div className="flex flex-col items-center">
-              <img
-                src={step.icon}
-                alt=""
-                className={`w-16 h-16 cursor-pointer ${
-                  currentStep === index + 1
-                    ? "w-20 h-20 bg-[#F7F7F7] p-3 rounded-md drop-shadow-md"
-                    : "text-gray-600 "
-                }`}
-                onClick={() => handleClick(index + 1)}
-              />
-              <p
-                className={`text-sm mt-2 ${
-                  currentStep === index + 1
-                    ? "text-[#fe9105]  font-bold text-xl "
-                    : "text-gray-600  font-bold "
-                }`}
-              >
-                {step.title}
-              </p>
+    <section className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+      <h2 className="text-sty  text-[32px] lg:text-4xl font-[700]  text-center mb-10 drop-shadow-md">
+        How We
+        <span className="text-[#3B80B8] drop-shadow-md"> Develop Software</span>
+      </h2>
+      <div className="flex flex-col lg:flex-row justify-around items-center">
+        <div className="grid grid-cols-3 gap-20 lg:gap-10 mb-5 lg:mb-0">
+          {steps.map((step, index) => (
+            <div key={index}>
+              <div className="flex flex-col items-center">
+                <img
+                  src={step.icon}
+                  alt=""
+                  className={`w-16 h-16 cursor-pointer ${
+                    currentStep === index + 1
+                      ? "w-20 h-20 bg-[#F7F7F7] p-3 rounded-md drop-shadow-md"
+                      : "text-gray-600 "
+                  }`}
+                  onClick={() => handleClick(index + 1)}
+                />
+                <p
+                  className={`text-sm mt-2 ${
+                    currentStep === index + 1
+                      ? "text-[#fe9105]  font-bold text-xl "
+                      : "text-gray-600  font-bold "
+                  }`}
+                >
+                  {step.title}
+                </p>
+              </div>
             </div>
+          ))}
+        </div>
+        <div className="w-96 chat chat-start">
+          <div className="chat-bubble bg-[#001E00] p-5 font-mono">
+            <p className="text-xl font-bold mb-2">
+              {steps[currentStep - 1].title}
+            </p>
+            <p className="text-sm">{steps[currentStep - 1].description}</p>
           </div>
-        ))}
-      </div>
-      <div className="w-96 chat chat-start">
-        <div className="chat-bubble bg-[#001E00] p-5 font-mono">
-          <p className="text-xl font-bold mb-2">
-            {steps[currentStep - 1].title}
-          </p>
-          <p className="text-sm">{steps[currentStep - 1].description}</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
