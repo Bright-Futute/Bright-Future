@@ -21,3 +21,34 @@ List of any prerequisites or dependencies required for the project, including li
 
 Step-by-step instructions for how to install and run the project, including any relevant command line instructions or configuration options. If possible, include screenshots or other visuals to help users better understand the installation process.
 
+### Prerequisites
+
+- React JS
+
+### Installation
+
+1. Clone the repository:
+
+```git
+git clone https://github.com/Bright-Futute/Bright-Future.git
+
+cd your-repository
+
+
+## Usage
+
+Instructions for how to use the project, including any important commands or features. If applicable, include screenshots or other visuals to help users better understand the project's functionality.
+
+
+## Contributing
+
+Guidelines for how to contribute to the project, including instructions for submitting pull requests or reporting issues. If you have specific requirements for contributions, such as a code of conduct or coding standards, include them here.
+
+
+## Authors
+
+List of the project's authors or contributors, including contact information if desired.
+
+Mahadi Hasan (jinfo@thebrightfuture.co)
+Mushfiqur Rahman (musfiqur@thebrightfuture.co)
+Abdullah Al Mamun (mamun@thebrightfuture.co)
