@@ -52,7 +52,7 @@ const Hero = () => {
                     We Are Professional
                   </span>
                   <br className="" />
-                  <span className="text-[#3B80B8] text-sty">
+                  <span className="text-[#3B80B8] text-sty text-4xl">
                     Design & Development
                   </span>{" "}
                   <br className="" />
@@ -105,7 +105,7 @@ const Hero = () => {
                     We Are Professional
                   </span>
                   <br className="" />
-                  <span className="text-[#3B80B8] text-sty">
+                  <span className="text-[#3B80B8] text-sty text-4xl">
                     Design & Development
                   </span>{" "}
                   <br className="" />
@@ -158,7 +158,7 @@ const Hero = () => {
                     We Are Professional
                   </span>
                   <br className="" />
-                  <span className="text-[#3B80B8] text-sty">
+                  <span className="text-[#3B80B8] text-sty text-4xl">
                     Design & Development
                   </span>{" "}
                   <br className="" />
@@ -211,7 +211,7 @@ const Hero = () => {
                     We Are Professional
                   </span>
                   <br className="" />
-                  <span className="text-[#3B80B8] text-sty">
+                  <span className="text-[#3B80B8] text-sty text-4xl">
                     Design & Development
                   </span>{" "}
                   <br className="" />
