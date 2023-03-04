@@ -14,10 +14,10 @@ import Vision from "./OurMission&Vision/Vision";
 const Home = () => {
   return (
     <>
-      <div className=" mb-20" id="top">
+      <div className="mb-20" id="top">
         <Hero></Hero>
       </div>
-      <div className="mb-20" id="waterfallmodel">
+      <div className="mb-20 " id="waterfallmodel">
         <WaterFallModel />
       </div>
       {/* <div className="mb-20">
@@ -47,7 +47,7 @@ const Home = () => {
       <div className="mb-20" id="review">
         <Testimonial />
       </div>
-      <div className="bg-[#f7f7f7] py-10" id="contact">
+      <div className="" id="contact">
         <ContactForm />
       </div>
     </>
