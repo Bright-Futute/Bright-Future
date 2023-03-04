@@ -1,23 +1,23 @@
-# Bright Future Portfolio
+# Project Name
 
-Brief description of project
+Brief description of the project, including what it does, why it's useful, and how it works.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Roadmap](#roadmap)
+- [Authors](#authors)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
 ## Prerequisites
 
-List of any prerequisites or dependencies required for the project
+List of any prerequisites or dependencies required for the project, including links to where they can be downloaded or installed.
 
 ## Installation
 
-Step-by-step instructions for how to install and run the project
+Step-by-step instructions for how to install and run the project, including any relevant command line instructions or configuration options. If possible, include screenshots or other visuals to help users better understand the installation process.
 
-## Usage
-
-Instructions for how to use the project, including any important commands or features
-
-## Contributing
-
-Guidelines for how to contribute to the project, including instructions for submitting pull requests or reporting issues
-
-## License
-
-License information for the project, including how others can use and modify your code
