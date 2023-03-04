@@ -14,7 +14,7 @@ import Vision from "./OurMission&Vision/Vision";
 const Home = () => {
   return (
     <>
-      <div className="mb-20" id="top">
+      <div className="" id="top">
         <Hero></Hero>
       </div>
       <div className="mb-20 " id="waterfallmodel">
