@@ -1,15 +1,23 @@
-## Color Code
+# Bright Future Portfolio
 
-Primary: #fe9105
-Secondary: #f9c301
-third: #f8d400
-Blue: #3B80B8
-bg: #F7F7F7
+Brief description of project
 
-purple: #A737D5
-purple2: #CB40A8
-blue: ##2B3582
+## Prerequisites
 
-px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8
+List of any prerequisites or dependencies required for the project
 
-##check
+## Installation
+
+Step-by-step instructions for how to install and run the project
+
+## Usage
+
+Instructions for how to use the project, including any important commands or features
+
+## Contributing
+
+Guidelines for how to contribute to the project, including instructions for submitting pull requests or reporting issues
+
+## License
+
+License information for the project, including how others can use and modify your code
