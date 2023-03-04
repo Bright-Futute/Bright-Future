@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
 import { NavHashLink as Link } from "react-router-hash-link";
-import Logo from "./bright.png";
+import Logo from "./brightWht.png";
 const Navbar = () => {
   const menuList = (
     <>
@@ -107,9 +107,10 @@ const Navbar = () => {
       </li>
     </>
   );
+
   return (
-    <div className="sticky top-0 w-full z-50 bg-[#ffffffdb] backdrop-blur-sm shadow-sm">
-      <div className="navbar px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mx-auto">
+    <div className="sticky top-0 w-full z-50 bg-[#001E00] backdrop-blur-sm">
+      <div className="navbar px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mx-auto font-[Kanit]">
         <div className="navbar-start flex justify-between lg:justify-start">
           <div className="dropdown mr-2 ">
             <label tabIndex={0} className="lg:hidden cursor-pointer">
@@ -118,7 +119,7 @@ const Navbar = () => {
             <div>
               <ul
                 tabIndex={0}
-                className="dropdown-content -ml-5 mt-8 p-2 w-52 bg-[#ffffffdb] backdrop-blur-sm"
+                className="dropdown-content -ml-5 mt-8 p-2 w-52 bg-[#001E00] backdrop-blur-sm "
               >
                 {menuList}
                 <hr />
@@ -127,7 +128,7 @@ const Navbar = () => {
           </div>
           <div className="ju-start">
             <Link to="/#top">
-              <img className="w-[130px] h-auto" src={Logo} alt="" />
+              <img className="w-[150px] h-auto" src={Logo} alt="" />
             </Link>
           </div>
         </div>
@@ -138,18 +139,8 @@ const Navbar = () => {
           <Link
             smooth={true}
             duration={500}
-
             to="/#contact"
-            className="
-            btn
-            border-none
-            hover:border-none
-            bg-[#fe9105]
-            hover:bg-[#3B80B8]
-            hover:duration-700
-            text-white
-            shadow-sm
-            hover:shadow-xl"
+            className="btn border-none hover:border-none bg-[#fe9105] hover:bg-[#3B80B8] hover:duration-700 shadow-sm hover:shadow-xl"
           >
             Contact us
           </Link>

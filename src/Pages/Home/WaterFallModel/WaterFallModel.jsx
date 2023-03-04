@@ -58,7 +58,7 @@ const WaterFallModel = () => {
                 alt=""
                 className={`w-16 h-16 cursor-pointer ${
                   currentStep === index + 1
-                    ? "w-20 h-20 bg-[#F7F7F7] p-3 rounded-md drop-shadow-md"
+                    ? "w-10 h-10 bg-[#F7F7F7] p-3 rounded-md drop-shadow-md"
                     : "text-gray-600 "
                 }`}
                 onClick={() => handleClick(index + 1)}
@@ -77,7 +77,7 @@ const WaterFallModel = () => {
         ))}
       </div>
       <div className="w-96 chat chat-start">
-        <div className="chat-bubble bg-[#001E00] p-5 font-mono">
+        <div className="chat-bubble bg-[#001E00] p-5">
           <p className="text-xl font-bold mb-2">
             {steps[currentStep - 1].title}
           </p>

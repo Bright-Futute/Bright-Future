@@ -38,7 +38,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white drop-shadow-sm flex flex-col rounded-xl hover:border-2 hover:border-[#f8d30067]">
+        <div className="bg-white drop-shadow-sm flex flex-col hover:border-2 hover:border-[#f8d30067]">
           <div className="drop-shadow-lg bg-[#fe9105] rounded-l-full">
             <Lottie
               className="w-full h-[250px] mx-auto"
@@ -59,7 +59,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white drop-shadow-sm flex flex-col rounded-xl hover:border-2 hover:border-[#f8d30067]">
+        <div className="bg-white drop-shadow-sm flex flex-col hover:border-2 hover:border-[#f8d30067]">
           <div className="drop-shadow-lg bg-[#fe9105] rounded-r-full">
             <Lottie
               className="w-full h-[250px] mx-auto"
@@ -80,7 +80,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white drop-shadow-sm flex flex-col rounded-xl hover:border-2 hover:border-[#f8d30067]">
+        <div className="bg-white drop-shadow-sm flex flex-col hover:border-2 hover:border-[#f8d30067]">
           <div className="drop-shadow-lg bg-[#fe9105] rounded-l-full">
             <Lottie
               className="w-full h-[250px] mx-auto"
