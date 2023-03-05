@@ -50,12 +50,12 @@ const WaterFallModel = () => {
 
   return (
     <section className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
-      <h2 className="text-sty  text-[32px] lg:text-4xl font-[700]  text-center mb-10 drop-shadow-md">
+      <h2 className="text-sty text-[26px] lg:text-4xl font-[700] text-center mb-10 drop-shadow-md">
         How We
-        <span className="text-[#3B80B8] drop-shadow-md"> Develop Software</span>
+        <span className="text-[#A737D5] drop-shadow-md"> Develop Software</span>
       </h2>
-      <div className="flex flex-col lg:flex-row justify-around items-center">
-        <div className="grid grid-cols-3 gap-20 lg:gap-10 mb-5 lg:mb-0">
+      <div className="flex lg:flex-row flex-col-reverse justify-around items-center">
+        <div className="grid grid-cols-3 gap-5 lg:gap-10 mb-5 lg:mb-0 mt-10 sm:mt-5">
           {steps.map((step, index) => (
             <div key={index}>
               <div className="flex flex-col items-center">
@@ -72,7 +72,7 @@ const WaterFallModel = () => {
                 <p
                   className={`text-sm mt-2 ${
                     currentStep === index + 1
-                      ? "text-[#fe9105]  font-bold text-xl "
+                      ? "text-[#A737D5]  font-bold text-xl "
                       : "text-gray-600  font-bold "
                   }`}
                 >
@@ -82,7 +82,7 @@ const WaterFallModel = () => {
             </div>
           ))}
         </div>
-        <div className="w-96 chat chat-start">
+        <div className="w-96 chat chat-start mx-auto sm:mx-0">
           <div className="chat-bubble bg-[#001E00] p-5 font-mono">
             <p className="text-xl font-bold mb-2">
               {steps[currentStep - 1].title}

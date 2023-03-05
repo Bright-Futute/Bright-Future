@@ -22,7 +22,7 @@ const Employee = () => {
   return (
     <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="flex justify-center items-center relative">
-        <h2 className="text-[72px] tracking-widest pb-5 text-[#fe9105] drop-shadow-md text-modeChange absolute lg:left-[230px] md:left-[5px] unique-font">
+        <h2 className="text-[72px] tracking-widest pb-5 text-[#A737D5] drop-shadow-md text-modeChange absolute lg:left-[230px] md:left-[5px] left-[5px] unique-font">
           our team
         </h2>
         <div className="">
@@ -42,7 +42,7 @@ const Employee = () => {
             ))}
           </Swiper>
         </div>
-        <h2 className="text-[72px] tracking-widest pb-5 text-[#3B80B8] drop-shadow-md text-modeChangeR absolute lg:right-[230px] md:right-[5px] unique-font">
+        <h2 className="text-[72px] tracking-widest pb-5 text-[#CB40A8] drop-shadow-md text-modeChangeR absolute lg:right-[230px] md:right-[5px] right-[5px] unique-font">
           our team
         </h2>
       </div>

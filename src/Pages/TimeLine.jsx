@@ -27,14 +27,14 @@ import Flutter from "./Technology/Images/flutter-logo.svg";
 const TimeLine = () => {
   return (
     <section>
-      <VerticalTimeline lineColor="#fe9105">
+      <VerticalTimeline lineColor="#A737D5">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: "#3B80B8", color: "#fff" }}
+          iconStyle={{ background: "#A737D5", color: "#fff" }}
         >
           <div className="">
             <h1 className="text-xl font-bold py-2">Front-End Development</h1>
-            <div className="grid grid-cols-7 gap-5">
+            <div className="grid grid-cols-4 sm:grid-cols-7 gap-6">
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
                 <img className="" src={Tailwind} title="Tailwind CSS" alt="" />
               </div>
@@ -66,11 +66,11 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: "#3B80B8", color: "#fff" }}
+          iconStyle={{ background: "#A737D5", color: "#fff" }}
         >
           <div>
             <h1 className="text-xl font-bold py-2">Back-End Development</h1>
-            <div className="grid grid-cols-5 gap-2">
+            <div className="grid grid-cols-4 sm:grid-cols-5 gap-6">
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
                 <img className="" src={NodeJs} title="NodeJS" alt="" />
               </div>
@@ -91,11 +91,11 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: "#3B80B8", color: "#fff" }}
+          iconStyle={{ background: "#A737D5", color: "#fff" }}
         >
           <div>
             <h1 className="text-xl font-bold py-2">Tools</h1>
-            <div className="grid grid-cols-5 gap-2">
+            <div className="grid grid-cols-4 sm:grid-cols-7 gap-6">
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
                 <img className="" src={FireBase} title="Firebase" alt="" />
               </div>
@@ -110,13 +110,18 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: "#3B80B8", color: "#fff" }}
+          iconStyle={{ background: "#A737D5", color: "#fff" }}
         >
           <div>
             <h1 className="text-xl font-bold py-2">App Development</h1>
-            <div className="grid grid-cols-5 gap-2">
+            <div className="grid grid-cols-4 sm:grid-cols-7 gap-6">
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
-                <img className="" src={ReactNative} title="React Native" alt="" />
+                <img
+                  className=""
+                  src={ReactNative}
+                  title="React Native"
+                  alt=""
+                />
               </div>
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
                 <img className="" src={Flutter} title="Flutter" alt="" />
@@ -126,13 +131,13 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: "#3B80B8", color: "#fff" }}
+          iconStyle={{ background: "#A737D5", color: "#fff" }}
         >
           <div>
             <h1 className="text-xl font-bold py-2">
               Payment Method Technology
             </h1>
-            <div className="grid grid-cols-5 gap-2">
+            <div className="grid grid-cols-4 sm:grid-cols-7 gap-6">
               <div className="w-[60px] h-[60px] p-2 bg-[#F7F7F7] hover:drop-shadow-md rounded-md flex justify-center items-center">
                 <img className="" src={SSL} title="SSL E-commerz" alt="" />
               </div>

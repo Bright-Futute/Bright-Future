@@ -45,14 +45,14 @@ const Hero = () => {
           className=""
         >
           <SwiperSlide>
-            <div className="flex flex-col items-start justify-between xl:flex-row ">
-              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:w-7/12 mx-auto lg:mx-0">
+            <div className="flex flex-col items-start justify-between xl:flex-row py-10">
+              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:w-7/12 mx-auto lg:mx-0 text-center sm:text-start">
                 <h2 className="mb-6 font-[Kanit] text-4xl tracking-tight text-white sm:text-5xl font-[700] leading-8 uppercase hero-h2-margin">
                   <span className="sm:text-5xl text-4xl font-medium">
                     We Are Professional
                   </span>
                   <br className="" />
-                  <span className="text-[#3B80B8] text-sty text-4xl">
+                  <span className="text-[#A737D5] text-sty text-4xl">
                     Design & Development
                   </span>{" "}
                   <br className="" />
@@ -88,7 +88,7 @@ const Hero = () => {
                   </svg>
                 </a>
               </div>
-              <div className="w-full max-w-xl xl:w-5/12">
+              <div className="w-full max-w-xl xl:w-5/12 ">
                 <Lottie
                   className="lg:w-[450px] lg:h-[450px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] mx-auto lg:mx-0 "
                   animationData={Image}
@@ -98,14 +98,14 @@ const Hero = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col items-start justify-between xl:flex-row ">
-              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:w-7/12 mx-auto lg:mx-0">
+            <div className="flex flex-col items-start justify-between xl:flex-row py-10 ">
+              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:w-7/12 mx-auto lg:mx-0 text-center sm:text-start">
                 <h2 className="mb-6 font-[Kanit] text-4xl tracking-tight text-white sm:text-5xl font-[700] leading-8 uppercase hero-h2-margin">
                   <span className="sm:text-5xl text-4xl font-medium">
                     We Are Professional
                   </span>
                   <br className="" />
-                  <span className="text-[#3B80B8] text-sty text-4xl">
+                  <span className="text-[#A737D5] text-sty text-4xl">
                     Design & Development
                   </span>{" "}
                   <br className="" />
@@ -141,7 +141,7 @@ const Hero = () => {
                   </svg>
                 </a>
               </div>
-              <div className="w-full max-w-xl xl:w-5/12">
+              <div className="w-full max-w-xl xl:w-5/12 ">
                 <Lottie
                   className="lg:w-[450px] lg:h-[450px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] mx-auto lg:mx-0 "
                   animationData={Image}
@@ -151,14 +151,14 @@ const Hero = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col items-start justify-between xl:flex-row ">
-              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:w-7/12 mx-auto lg:mx-0">
+            <div className="flex flex-col items-start justify-between xl:flex-row py-10 ">
+              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:w-7/12 mx-auto lg:mx-0 text-center sm:text-start">
                 <h2 className="mb-6 font-[Kanit] text-4xl tracking-tight text-white sm:text-5xl font-[700] leading-8 uppercase hero-h2-margin">
                   <span className="sm:text-5xl text-4xl font-medium">
                     We Are Professional
                   </span>
                   <br className="" />
-                  <span className="text-[#3B80B8] text-sty text-4xl">
+                  <span className="text-[#A737D5] text-sty text-4xl">
                     Design & Development
                   </span>{" "}
                   <br className="" />
@@ -194,7 +194,7 @@ const Hero = () => {
                   </svg>
                 </a>
               </div>
-              <div className="w-full max-w-xl xl:w-5/12">
+              <div className="w-full max-w-xl xl:w-5/12 ">
                 <Lottie
                   className="lg:w-[450px] lg:h-[450px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] mx-auto lg:mx-0 "
                   animationData={Image}
@@ -204,14 +204,14 @@ const Hero = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col items-start justify-between xl:flex-row ">
-              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:w-7/12 mx-auto lg:mx-0">
+            <div className="flex flex-col items-start justify-between xl:flex-row py-10 ">
+              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:w-7/12 mx-auto lg:mx-0 text-center sm:text-start">
                 <h2 className="mb-6 font-[Kanit] text-4xl tracking-tight text-white sm:text-5xl font-[700] leading-8 uppercase hero-h2-margin">
                   <span className="sm:text-5xl text-4xl font-medium">
                     We Are Professional
                   </span>
                   <br className="" />
-                  <span className="text-[#3B80B8] text-sty text-4xl">
+                  <span className="text-[#A737D5] text-sty text-4xl">
                     Design & Development
                   </span>{" "}
                   <br className="" />
@@ -247,7 +247,7 @@ const Hero = () => {
                   </svg>
                 </a>
               </div>
-              <div className="w-full max-w-xl xl:w-5/12">
+              <div className="w-full max-w-xl xl:w-5/12 ">
                 <Lottie
                   className="lg:w-[450px] lg:h-[450px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] mx-auto lg:mx-0 "
                   animationData={Image}

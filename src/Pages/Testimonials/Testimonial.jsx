@@ -19,9 +19,9 @@ const Testimonial = () => {
         <h6 className="text-center text-gray-700 uppercase  text-sm font-bold">
           Testimonials
         </h6>
-        <h2 className="text-sty mt-2  text-[32px] lg:text-4xl font-[700]  text-center drop-shadow-md">
+        <h2 className="text-sty mt-2  text-[26px] lg:text-4xl font-[700]  text-center drop-shadow-md">
           We do people love{" "}
-          <span className="text-[#fe9105] drop-shadow-md">Bright Future</span>?
+          <span className="text-[#A737D5] drop-shadow-md">Bright Future</span>?
         </h2>
       </div>
       <div>

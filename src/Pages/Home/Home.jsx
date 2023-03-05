@@ -10,12 +10,17 @@ import Testimonial from "../Testimonials/Testimonial";
 import WaterFallModel from "./WaterFallModel/WaterFallModel";
 import Mission from "./OurMission&Vision/Mission";
 import Vision from "./OurMission&Vision/Vision";
+import Navbar from "../Shared/Navbar/Navbar";
+import LazyLoad from "react-lazyload";
 
 const Home = () => {
   return (
     <>
+      <Navbar />
       <div className="" id="top">
-        <Hero></Hero>
+        <LazyLoad>
+          <Hero></Hero>
+        </LazyLoad>
       </div>
       <div className="mb-20 " id="waterfallmodel">
         <WaterFallModel />
@@ -35,13 +40,13 @@ const Home = () => {
       <div className="mb-20" id="projects">
         <Projects></Projects>
       </div>
-      <div className="mb-20 bg-[#f7f7f7] py-10" id="mission">
+      <div className=" bg-[#f7f7f7] py-10" id="mission">
         <Mission />
       </div>
-      <div className="mb-20" id="vision">
+      <div className="" id="vision">
         <Vision />
       </div>
-      <div className="mb-20 bg-[#f7f7f7] py-10" id="team">
+      <div className="mb-20 bg-[#f7f7f7] py-20" id="team">
         <Employee></Employee>
       </div>
       <div className="mb-20" id="review">

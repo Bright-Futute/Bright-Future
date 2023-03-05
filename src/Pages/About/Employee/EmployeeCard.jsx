@@ -16,7 +16,7 @@ const EmployeeCard = ({ employee }) => {
   return (
     <div className="card h-[433px] w-[310px]">
       <img src={img} alt="Employee" className="card-img p-0" />
-      <div className="card-body text-white flex flex-col justify-center text-center font-mono">
+      <div className="card-body text-white flex flex-col justify-end text-center font-mono">
         <h3 className="text-3xl font-bold text-white">{name}</h3>
         <h5>{position}</h5>
         <a
@@ -25,7 +25,7 @@ const EmployeeCard = ({ employee }) => {
           href={linkedin}
           className="mx-auto mt-5"
         >
-          <BsLinkedin className="w-10 h-10" />
+          <BsLinkedin className="w-6 h-6" />
         </a>
       </div>
     </div>

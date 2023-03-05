@@ -54,7 +54,7 @@
 .nav-list:after {
   content: "";
   position: absolute;
-  background-color: #f9c301;
+  background-color: #fff;
   height: 3px;
   width: 0;
   left: 0;
@@ -86,6 +86,7 @@
   font-family: "Golos Text", sans-serif;
   text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   -webkit-text-stroke: 1px #fff;
+  line-height: 2.5rem;
 }
 
 .scroll-down-btn {
@@ -116,20 +117,22 @@
 }
 
 .gradient-color {
-  background: rgb(254, 145, 5);
-  background: linear-gradient(
-    139deg,
-    rgba(254, 145, 5, 1) 0%,
-    rgba(249, 195, 1, 1) 69%,
-    rgba(248, 212, 0, 1) 100%
-  );
+  background: linear-gradient(165deg, #a737d5 0%, #cb40a8 100%);
+  opacity: 95%;
 }
 
 .bg-img {
   max-width: 100%;
   margin: 0 auto;
-  background-image: url("./Pages/Home/Hero/bg-01-01.jpg");
+  background-image: url("./Pages/Home/Hero/bg-01-01-01.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.dropdown-list li {
+  padding-bottom: 10px;
+}
+.dropdown-list li a {
+  color: #000;
 }

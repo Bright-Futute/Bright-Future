@@ -1,13 +1,15 @@
 import React from "react";
 import ContactForm from "../ContactForm/ContactForm";
+import Header from "../Shared/Navbar/Header";
 import Image from "./HeroSectionOfBrightFuture.jpg";
 const About = () => {
   return (
-    <section>
+    <>
+      <Header />
       <section className="bg-white text-black">
         <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
           <div>
-            <h2 className="text-sty text-[32px] lg:text-4xl font-[700] drop-shadow-md text-center text-[#3B80B8]">
+            <h2 className="text-sty text-[26px] lg:text-4xl font-[700] drop-shadow-md text-center text-[#A737D5]">
               Bright Future
             </h2>
             <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-800">
@@ -68,7 +70,7 @@ const About = () => {
         </div>
       </section>
       <ContactForm></ContactForm>
-    </section>
+    </>
   );
 };
 

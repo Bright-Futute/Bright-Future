@@ -43,7 +43,7 @@ const ContactForm = () => {
         <Typography
           gutterBottom
           variant="h2"
-          className="text-center  text-[32px] lg:text-4xl mb-10 drop-shadow-md text-sty"
+          className="text-center  text-[26px] lg:text-4xl mb-10 drop-shadow-md text-sty"
           style={{ fontWeight: "900", fontSize: "36px" }}
         >
           Want to talk about your project?
@@ -120,7 +120,7 @@ const ContactForm = () => {
                       <Button
                         type="submit"
                         variant="contained"
-                        style={{ backgroundColor: "#fe9105" }}
+                        style={{ backgroundColor: "#A737D5" }}
                         fullWidth
                       >
                         Submit

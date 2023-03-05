@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaBars } from "react-icons/fa";
-import LazyLoad from "react-lazyload";
 import { NavHashLink as Link } from "react-router-hash-link";
 import Logo from "./brightWht.png";
-const Navbar = () => {
-  const [navbar, setNavbar] = useState(false);
+const Header = () => {
   const menuList = (
     <>
       <li>
@@ -109,24 +107,10 @@ const Navbar = () => {
       </li>
     </>
   );
-  const changeBg = () => {
-    if (window.scrollY >= 280) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
 
-  window.addEventListener("scroll", changeBg);
   return (
-    <div
-      className={
-        navbar
-          ? "sticky top-0 w-full z-50 gradient-color"
-          : "absolute top-0 w-full z-50"
-      }
-    >
-      <div className="navbar px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mx-auto font-[Kanit] py-5">
+    <div className="sticky top-0 w-full z-50 gradient-color">
+      <div className="navbar px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mx-auto font-[Kanit]">
         <div className="navbar-start flex justify-between lg:justify-start">
           <div className="dropdown mr-2 ">
             <label tabIndex={0} className="lg:hidden cursor-pointer">
@@ -135,18 +119,16 @@ const Navbar = () => {
             <div>
               <ul
                 tabIndex={0}
-                className="dropdown-content -ml-5 mt-8 p-2 w-52 bg-[#f7f7f7cd] backdrop-blur-sm dropdown-list"
+                className="dropdown-content -ml-5 mt-8 p-2 w-52 bg-[#001E00] backdrop-blur-sm "
               >
                 {menuList}
                 <hr />
               </ul>
             </div>
           </div>
-          <div className="">
+          <div className="ju-start">
             <Link to="/#top">
-              <LazyLoad>
-                <img className="w-[150px] h-auto" src={Logo} alt="" />
-              </LazyLoad>
+              <img className="w-[150px] h-auto" src={Logo} alt="" />
             </Link>
           </div>
         </div>
@@ -168,4 +150,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;
