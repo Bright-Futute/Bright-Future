@@ -49,7 +49,7 @@ const WaterFallModel = () => {
   };
 
   return (
-    <section className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+    <section className="px-4 py-5 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
       <h2 className="text-sty text-[26px] lg:text-4xl font-[700] text-center mb-10 drop-shadow-md">
         How We
         <span className="text-[#A737D5] drop-shadow-md"> Develop Software</span>
@@ -62,9 +62,9 @@ const WaterFallModel = () => {
                 <img
                   src={step.icon}
                   alt=""
-                  className={`w-16 h-16 cursor-pointer ${
+                  className={`w-12 h-12 cursor-pointer ${
                     currentStep === index + 1
-                      ? "w-20 h-20 bg-[#F7F7F7] p-3 rounded-md drop-shadow-md"
+                      ? "w-12 h-12 bg-[#F7F7F7] p-2 rounded-md drop-shadow-md"
                       : "text-gray-600 "
                   }`}
                   onClick={() => handleClick(index + 1)}

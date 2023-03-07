@@ -10,7 +10,7 @@ import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCu
 
 const Footer = () => {
   return (
-    <section className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pt-0">
+    <section className="relative px-4 py-8 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pt-0">
       <div className=" bg-[#001E00] rounded-xl px-14 py-8">
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-2">
@@ -226,7 +226,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="/"
+              href="https://www.facebook.com/thebrightfuture.co"
               className="transition-colors duration-300 text-purple-100 hover:text-[#A737D5]"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -238,10 +238,13 @@ const Footer = () => {
       </div>
 
       <div className="fixed right-0 bottom-1/2 translate-y-1/2 space-y-4">
-        <a href="#" target="_blank">
+        <a
+          href="https://www.linkedin.com/company/thebrightfuture-co/"
+          target="_blank"
+        >
           <FaLinkedin className="w-8 h-8 hover:w-7 hover:h-7 my-2 fill-[#0072b1]" />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.facebook.com/thebrightfuture.co" target="_blank">
           <FaFacebookSquare className="w-8 h-8 hover:w-7 hover:h-7 my-2 fill-[#3b5998]" />
         </a>
         <a href="#" target="_blank">

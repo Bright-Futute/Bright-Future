@@ -7,7 +7,7 @@ const About = () => {
     <>
       <Header />
       <section className="bg-white text-black">
-        <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+        <div className="container max-w-xl py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
           <div>
             <h2 className="text-sty text-[26px] lg:text-4xl font-[700] drop-shadow-md text-center text-[#A737D5]">
               Bright Future

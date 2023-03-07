@@ -11,18 +11,15 @@ import WaterFallModel from "./WaterFallModel/WaterFallModel";
 import Mission from "./OurMission&Vision/Mission";
 import Vision from "./OurMission&Vision/Vision";
 import Navbar from "../Shared/Navbar/Navbar";
-import LazyLoad from "react-lazyload";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <div className="" id="top">
-        <LazyLoad>
           <Hero></Hero>
-        </LazyLoad>
       </div>
-      <div className="mb-20 " id="waterfallmodel">
+      <div className="mb-20 -mt-5" id="waterfallmodel">
         <WaterFallModel />
       </div>
       {/* <div className="mb-20">

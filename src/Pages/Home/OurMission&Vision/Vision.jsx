@@ -4,8 +4,8 @@ import ourVisn from "./Visn.json";
 
 const Vision = () => {
   return (
-    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pt-20 sm:pt-0">
-      <div className="grid gap-10 lg:grid-cols-2 ">
+    <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pt-20 sm:pt-0">
+      <div className="grid gap-10 lg:grid-cols-2 lg:w-10/12 mx-auto">
         <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
           <div className="max-w-xl mb-6">
             <h2 className="text-sty  text-[26px] lg:text-4xl font-[700] mb-10 drop-shadow-md">
@@ -141,5 +141,3 @@ const Vision = () => {
 };
 
 export default Vision;
-
-<Lottie className="" animationData={ourVisn} loop={true} />;
